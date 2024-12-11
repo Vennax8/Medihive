@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness - MediHive</title>
+   <!-- Font  -->
+   <!-- Header Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 
+   <!-- Text Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- Nav & Footer Font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="../Image/Favicon.PNG">
+   <!-- Bootstrap  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <!-- font-awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <!-- Css  -->
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/pages.css">
+   <!-- Aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-fluid">
+      <!-- Navbar Start  -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../Image/MediHive.png" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="navbar-togglefixforjs"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse nff" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown mx-2 text-md-center text-sm-center">
+              <a class="nav-link dropdown-toggle navbartext" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Health Conditions</b>
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/physicalHealth.html">Physical Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mentalHealth.html">Mental Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mobileEffect.html">Effects From Mobile Devices</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/diet.html">Diet Tips</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center active" href="../pages/fitness.html">Fitness Tips</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/healthNews.html">Health News</a>
+            </li>
+            <li class="nav-item  mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/doctors'_info.html">Doctors' info</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/contactUs.html">Contact Us</a>
+            </li>
+
+            <li class="text-center">
+              <div class="showbg-d" id="signupbtn">
+                <button type="button" class="btn btn-outline-light mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up</button>
+              </div>
+              <div class="hide" id="userinfobox">
+                <!-- <img src="imag" id="user-PFPimg" class="PFP" alt="Your Profile"> -->
+                <span class="username pe-3" id="user-username"></span>
+              </div>
+            </li>
+
+            <!-- Modal --> 
+            <li>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content modal-content_nav">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="slider"></div>
+                      <div class="Rbtn">
+                          <button class="signup">Signup</button>
+                          <button class="login">Login</button>
+                      </div>
+                      
+                      <div class="form-section">
+                        
+                        <div class="signup-from">
+                            <input type="text" 
+                                   class="name input_group" 
+                                   placeholder="Username"
+                                   id="nameinputresult">
+                                   
+                            <input type="email" 
+                                   class="email input_group" 
+                                   placeholder="Email Address"
+                                   id="registeremail">
+                            <input type="password" 
+                                   class="password input_group" 
+                                   placeholder="password">
+                            <input type="password" 
+                                   class="confirm_password input_group" 
+                                   placeholder="Confirm password">
+                            
+                            <button class="mybtn" id="signupSubmit" data-bs-dismiss="modal">Signup</button>
+                            <div class="form-text">Your information is safe and secure in our trusted care.</div>
+                            <p class="ahaa fs-6 text-center">Already have an account?</p>
+                        </div>
+  
+  
+                        <div class="login-from">
+                          <input type="email" 
+                                 class="email_login input_group" id="registeremailLogin" 
+                                 placeholder="youremail@email.com">
+                          <input type="password"
+                                 class="password_login input_group" 
+                                 placeholder="password">
+                          <button class="mybtn" id="login_btn" data-bs-dismiss="modal">Login</button>
+                      </div>
+                    </div>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </li> 
+            
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End  -->
+
+        <!-- Banner Start  -->
+        <section>
+          <div class="d-flex motherfitness">
+            <div class="col-lg-7 text-center gap-2">
+              <h2>Fuel Your Fitness Journey – Your Healthier Body Starts Here!</h2>
+              <p>Curious About Your Fitness Level? Click Here to Discover Your Body's Condition!</p>
+              <div class="d-grid mx-auto col-3 ">
+                <a href="#bmi"><button class="btn btn-dark btn-lg"> Check </button></a>
+              </div>
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center">
+              <img class="fitnessbannerImg" src="../image2/fitnessbanner_img.jfif" alt="bannersideimg">
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Banner End  -->
+
+         <!-- Exercises for healthy life Start -->
+         <section class="d-flex justify-content-center my-4" data-aos="fade-up">
+          <div class="d-flex flex-column align-items-center text-dark easy_execontainer">
+            <h2 class="hf">Easy exercises for healty life</h2>
+                <div class="d-flex justify-content-center">
+                  <div class="bar_exe"></div>
+                </div>
+            <div class="lec row mb-3">
+              <div class="col-lg-6 col-sm-12 mb-2">
+                <img class="eseimg" src="../image3/taichi.jpg" alt="easyexericisepic">
+              </div>
+              <div class="col-lg-6 col-sm-12 esetext nff">
+                  <ol>
+                    <li>
+                      Swimming
+                      <ul class="swim">
+                        <li>Supports joints and reduces strain.</li>
+                        <li>Beneficial for individuals with arthritis.</li>
+                        <li>Improves mental state and mood.</li>
+                        <li>Water aerobics tones muscles and burns calories.</li>
+                      </ul>
+                    </li>
+                    <li >
+                      TaiChi
+                      <ul class="Taichi">
+                        <li>Combines movement and relaxation.</li>
+                        <li>Improves balance, especially for older adults.</li>
+                        <li>Accessible for all ages and fitness levels.</li>
+                        <li>Available at YMCAs, health clubs, and community centers.</li>
+                      </ul>
+                    </li>
+                    <li >
+                      Strength Training
+                      <ul class="strengthtraining">
+                        <li>Maintains muscle strength and burns calories.</li>
+                        <li>Helps with weight management and brain function.</li>
+                        <li>Start with light weights and progress gradually.</li>
+                        <li>Proper form is critical to avoid injury.</li>
+                      </ul> 
+                    </li>
+                    <li >
+                      Walking
+                      <ul class="walking">
+                        <li>Simple and improves overall health.</li>
+                        <li>Helps with weight, mood, cholesterol, and blood pressure.</li>
+                        <li>Reduces risks of diabetes, heart disease, and memory loss.</li>
+                        <li>Requires supportive, well-fitting shoes.</li>
+                      </ul>
+                    </li>
+                    <li >
+                      Kegel Exercises
+                      <ul class="kegel">
+                        <li>Strengthens pelvic floor muscles to prevent incontinence./li>
+                        <li>Beneficial for both men and women..</li>
+                        <li>Involves squeezing and relaxing pelvic muscles.</li>
+                        <li>Recommended 4–5 sets of 10 repetitions daily.</li>
+                      </ul>
+                    </li>
+                  </ol>
+              </div>
+            </div>
+          </div>
+          
+         </section>
+
+
+         <!-- Exercises for healthy life End -->
+
+         <!-- Exercises for healthy life Start -->
+         <section class="d-flex justify-content-center my-4" data-aos="fade-up">
+          <div class="Dexercise row">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+              <h2 class="text-center hf">Daily Exercises</h2>
+              <div class="d-flex justify-content-center">
+                <div class="bar_exe"></div>
+              </div>
+              <h4 class="text-center nff">For A Healthier Routines</h4>
+              <div class="text-start ms-2 de_text">
+                <ul>
+                  <li class="lunches">
+                    <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness1">Lunches</p>
+                  </li>
+                    <hr>
+                    <li class="pushup">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness2">Pushups</p>
+                    </li>
+                    <hr>
+                    <li class="squat">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness3">Squats</p>
+                    </li>
+                    <hr>
+                    <li class="sodumbbel">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness4">Overhead dumbbell presses</p>
+                    </li>
+                    <hr>
+                    <li class="dumbbellrows">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness5">Dumbbell rows</p>
+                    </li>
+                    <hr>
+
+                    <li class="legdedlift">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness6">Single-leg deadlifts</p>
+                    </li>
+                    <hr>
+
+                    <li class="burpees">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness7">Burpees</p>
+                    </li>
+                    <hr>
+
+                    <li class="sideplank">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness8">Side planks</p>
+                    </li>
+                    <hr>
+
+                    <li class="planks">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness9">Planks</p>
+                    </li>
+                    <hr>
+
+                    <li class="glutebridge">
+                      <p class="fs-4 tf" data-bs-toggle="modal" data-bs-target="#fitness10">Glute bridge</p>
+                    </li>
+
+                  </ul>
+              </div>
+            </div> 
+
+            <div class="deright col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center">
+              <div class="derightimgbox">
+                <img src="../image3/dailyexercisepic.png" alt="dailyexercisepic">
+              </div>
+              
+            </div>
+            
+          </div>
+        </section>
+
+        <!-- Modal Exercise  -->
+         <section>
+            <!-- Modal lunches Start -->
+            <div class="modal fade" id="fitness1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness1Label" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content fitnessmodal_content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="fitness1Label">Lunches</h2>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body  d-flex flex-column py-2">
+                    <div class="fitnessmodal_imgbox"><img src="../image3/lunches.png" alt="lunches"></div>
+                    <div class="my-2">
+                      <div class="my-2 fs-5 nff">The glute bridge effectively works your entire posterior chain, which isn’t only good for you, but it’ll make your booty look perkier, too.</div>
+                      <hr>
+
+                      <h2 class="hf">How to do?</h2>
+                      <ol>
+                        <li class="mb-2">Start by standing with your feet shoulder-width apart and arms down at your sides.</li>
+                        <li class="mb-2">Take a step forward with your right leg and bend your right knee as you do so, stopping when your thigh is parallel to the ground. Ensure that your right knee doesn’t extend past your right foot.</li>
+                        <li class="mb-2">Push up off your right foot and return to the starting position. Repeat with your left leg. This is one rep.</li>
+                        <li>Complete 3 sets of 10 reps.</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal lunches End  -->
+
+            <!-- Modal Pushups Start -->
+            <div class="modal fade " id="fitness2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness2Label">Pushups</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/pushup.jpg" alt="pushup"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.
+                      <br>
+                      If you can’t quite perform a standard pushup with good form, drop down to a modified stance on your knees — you’ll still reap many of the benefits from this exercise while building strength.
+                    </div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Start in a plank position. Your core should be tight, shoulders pulled down and back, and your neck neutral.</li>
+                      <li>Bend your elbows and begin to lower your body down to the floor. When your chest grazes it, extend your elbows and return to the start. <br>Focus on keeping your elbows close to your body during the movement</li>
+                      <li>Complete 3 sets of as many reps as possible.</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Pushups End  -->
+
+            <!-- Modal Squats Start -->
+            <div class="modal fade " id="fitness3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness3Label">Squats</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/Squat.png" alt="squat"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.</div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Start by standing straight, with your feet slightly wider than shoulder-width apart, and your arms at your sides.</li>
+                      <li>Brace your core and, keeping your chest and chin up, push your hips back and bend your knees as if you’re going to sit in a chair.</li>
+                      <li>Ensuring your knees don’t bow inward or outward, drop down until your thighs are parallel to the ground, bringing your arms out in front of you in a comfortable position. Pause for 1 second, then extend your legs and return to the starting position.</li>
+                      <li>Complete 3 sets of 20 reps.</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Squats End  -->
+
+            <!-- Modal Overhead D press Start -->
+             <div class="modal fade " id="fitness4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness4Label" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content fitnessmodal_content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="fitness4Label">Overhead dumbbell presses</h2>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body  d-flex flex-column py-2">
+                    <div class="fitnessmodal_imgbox"><img src="../image3/overhead dumbbell presses.png" alt="overhead_dumbbell"></div>
+                    <div class="my-2">
+                      <div class="my-2 fs-5 nff">Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn’t only one of the best exercises you can do for your shoulders, but it also engages your upper back and core.</div>
+                      <hr>
+
+                      <h2 class="hf">How to do?</h2>
+                      <ol>
+                        <li>Pick a light set of dumbbells — we recommend 10 pounds to start — and start by standing, either with your feet shoulder-width apart or staggered. Move the weights overhead so your upper arms are parallel to the floor.</li>
+                        <li>Bracing your core, begin to push up until your arms are fully extended above your head. Keep your head and neck stationary.</li>
+                        <li>After a brief pause, bend your elbows and lower the weight back down until your triceps muscle is parallel to the floor again.</li>
+                        <li>Complete 3 sets of 12 reps.</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Overhead D press End  -->
+
+            <!-- Modal Dumble Roll Start -->
+            <div class="modal fade " id="fitness5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness5Label">Dumbbell rows</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/Dumbbell rows.png" alt="dumbbellrows"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body. Choose a moderate-weight dumbbell and ensure that you’re squeezing at the top of the movement.
+                    </div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Start with a dumbbell in each hand. We recommend no more than 10 pounds for beginners.</li>
+                      <li>Bend forward at the waist, so your back is at a 45-degree angle to the ground. Be certain not to arch your back. Let your arms hang straight down. Ensure your neck is in line with your back and your core is engaged.</li>
+                      <li>Starting with your right arm, bend your elbow and pull the weight straight up toward your chest, making sure to engage your lat and stopping just below your chest.</li>
+                      <li>Return to the starting position and repeat with the left arm. This is one rep. Repeat 10 times for 3 sets.</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Dumble Roll End  -->
+
+            <!-- Modal Single Leg Start -->
+            <div class="modal fade " id="fitness6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness6Label" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content fitnessmodal_content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="fitness6Label">Single-leg deadlifts</h2>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body  d-flex flex-column py-2">
+                    <div class="fitnessmodal_imgbox"><img src="../image3/Single-leg deadlifts.png" alt="Single-leg"></div>
+                    <div class="my-2">
+                      <div class="my-2 fs-5 nff">This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.
+                      </div>
+                      <hr>
+
+                      <h2 class="hf">How to do?</h2>
+                      <ol>
+                        <li>Begin standing with a dumbbell in your right hand, and your knees slightly bent.</li>
+                        <li>Hinging at the hips, begin to kick your left leg straight back behind you, lowering the dumbbell down toward the ground.</li>
+                        <li>When you reach a comfortable height with your left leg, slowly return to the starting position in a controlled motion, squeezing your right glute. Ensure that your pelvis stays square to the ground during the movement.</li>
+                        <li>Repeat 10 to 12 reps before moving the weight to your left hand and repeating the same steps on the left leg. It’s suggested to do 3 sets of 10-12 reps per side.</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Single Leg End  -->
+
+            <!-- Modal Burpees Start -->
+            <div class="modal fade " id="fitness7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness7Label">Burpees</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/burpees.webp" alt="burpees"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.
+                    </div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Start by standing upright with your feet shoulder-width apart and your arms down at your sides.</li>
+                      <li>With your hands out in front of you, start to squat down. When your hands reach the ground, pop your legs straight back into a pushup position.</li>
+                      <li>Jump your feet up to your palms by hinging at the waist. Get your feet as close to your hands as you can get, landing them outside your hands if necessary.</li>
+                      <li>Stand up straight, bringing your arms above your head, and jump.</li>
+                      <li>This is one rep. Complete 3 sets of 10 reps as a beginner.</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Burpees End  -->
+
+            <!-- Modal Side Planks Start -->
+            <div class="modal fade " id="fitness8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness8Label" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content fitnessmodal_content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="fitness8Label">Side planks</h2>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body  d-flex flex-column py-2">
+                    <div class="fitnessmodal_imgbox"><img src="../image3/SidePlank.png" alt="sideplank"></div>
+                    <div class="my-2">
+                      <div class="my-2 fs-5 nff">A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank.
+                        <br>
+                        Focus on the mind-muscle connection and controlled movements to ensure you’re completing this move effectively.
+                      </div>
+                      <hr>
+
+                      <h2 class="hf">How to do?</h2>
+                      <ol>
+                        <li>Lie on your right side with your left leg and foot stacked on top of your right leg and foot. Prop your upper body up by placing your right forearm on the ground and elbow directly under your shoulder.</li>
+                        <li>Contract your core to stiffen your spine and lift your hips and knees off the ground, forming a straight line with your body.</li>
+                        <li>Return to start in a controlled manner. Repeat 3 sets of 10–15 reps on one side, then switch.</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Side Planks End  -->
+
+            <!-- Modal Planks Start -->
+            <div class="modal fade " id="fitness9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness9Label">Planks</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/plank.jpg" alt="planks"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">Planks are an effective way to target both your abdominal muscles and your whole body. Planking stabilizes your core without straining your back the way situps or crunches might.
+                    </div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Begin in a pushup position with your hand and toes firmly planted on the ground, your back straight, and your core tight.</li>
+                      <li>Keep your chin slightly tucked and your gaze just in front of your hands.</li>
+                      <li>Take deep, controlled breaths while maintaining tension throughout your entire body, so your abs, shoulders, triceps, glutes, and quads are all engaged.</li>
+                      <li>Complete 2-3 sets of 30-second holds to start.</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Planks End  -->
+
+            <!-- Modal Glute Bridge -->
+            <div class="modal fade " id="fitness10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fitness10Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content fitnessmodal_content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="fitness10Label">Glute bridge</h2>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  d-flex flex-column py-2">
+                  <div class="fitnessmodal_imgbox"><img src="../image3/glutebridge.jpg" alt="glutebridge"></div>
+                  <div class="my-2">
+                    <div class="my-2 fs-5 nff">The glute bridge effectively works your entire posterior chain, which isn’t only good for you, but it’ll make your booty look perkier, too.
+                    </div>
+                    <hr>
+
+                    <h2 class="hf">How to do?</h2>
+                    <ol>
+                      <li>Start by lying on the floor with your knees bent, feet flat on the ground, and arms straight at your sides with your palms facing down.</li>
+                      <li>Pushing through your heels, raise your hips off the ground by squeezing your core, glutes, and hamstrings. Your upper back and shoulders should still be in contact with the ground, and your core down to your knees should form a straight line.</li>
+                      <li>Pause 1–2 seconds at the top and return to the starting position.</li>
+                      <li>Complete 10–12 reps for 3 sets</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Modal Gluet Bridge End  -->
+         </section>
+     <!-- Exercises for healthy life End -->
+
+         <!--BMI calculator Start-->
+         <div class="container my-5" id="bmi">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+              <h3 class="my-3">Testing your fitness</h3>
+              <p>Your BMI (Body Mass Index) is the measurement of your fitneess. It measure whether your heigh i propotional to your weight. You can find out is your are underweight, overweight or obese<p>
+            </div>
+            <div class="col-md-6 text-center" data-aos="fade-left">
+              <form class="form-control border-dark border-2 bmi-text fitness-bmi-container">
+                <p>Please type your weight (in kg): </p>
+                <input type="text" id="weight">
+                
+                <p>Please type your height (in cm): </p>
+                <input type="text" id="height">
+                
+                <br> 
+                <button type="button" id="calculateBtn" class="btn btn-primary my-3">Calculate</button>
+                                
+              </form>
+                
+            </div>
+          </div>
+         </div>
+
+         <!--BMI calculator End-->
+
+         <!-- Motivational Quote Start  -->
+
+         <section class="d-flex justify-content-center my-4" data-aos="fade-up">
+          <div class="d-flex mothermoti">
+            <div class="col-lg-12 text-center gap-2">
+              <h2 class="nff">
+                "Taking action each day, no matter how small, <br> lays the foundation for big success <br> and remarkable results."
+              </h2>
+            </div>
+          </div>
+        </section>
+
+         <!-- Motivational Quote End  -->
+         <div class="chat_icon"><a href="chat.html" class="chat_link"><img src="../image2/chaticon.png" alt="chaticon"></a></div>
+
+
+
+
+     <!-- Footer Start  -->
+   <footer>
+    <div class="container-fluid my-2 py-3 ">
+      <div class="row nff">
+        <!-- Register -->
+        <div class="col-lg-3">
+          <form action="">
+            <h3 class="hf"><b>Register Here!</b></h3>
+            <p>With the help of your cooperation and signing up for our service, we shall help you with personal doctors within your interest! Sign up below to receive this offer! </p>
+            <div class="d-flex flex-column">
+              <input type="text" class="form-control" placeholder="Email Address" id="footerregisteremail">
+              <button type="button" class="btn ft-signup mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="regfooterbtn">Sign Up</button>
+            </div>
+          </form>
+          <img class="imgconfigforfooter" src="../Image/arrowfooter.png" alt="arrowfooter">
+        </div>
+        <!-- Nav Pages -->
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div>
+                <div class="my-1"><a href="../index.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Home</h4></a></div>
+                <div class="my-1"><a href="../pages/aboutUs.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">About Us</h4></a></div>
+                <div class="my-1"><a href="../pages/physicalHealth.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Physical Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mentalHealth.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Mental Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mobileEffect.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Effects From Mobile Devices</h4></a></div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="my-1"><a href="../pages/healthNews.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Health News</h4></a></div> 
+               <div class="my-1"><a href="../pages/doctors's_info.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Doctors' Info</h4></a></div>
+               <div class="my-1"><a class="contactnav" href="../pages/PrivacyPolicy.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Our Policies</h5></a></div>
+               <div class="my-1"><a href="../pages/diet.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Diet Tips</h4></a></div>
+               <div class="my-1"><a href="../pages/fitness.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Fitness Tips</h4></a></div>
+              <div class="my-1"><a class="contactnav" href="../Citation 2024-2025.docx"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Reference</h5></a></div>
+
+            </div>
+            <p class="text-center mt-5"> &copy; 2024-2025 MediHive. All rights reserved </p>
+          </div>
+        </div>
+        <!-- Contact Us -->
+        <div class="col-lg-3 ">
+          <div class="text-center"><a href="../pages/contactUs.html"><h2 class="contactustitle">Contact Us</h2></a></div>
+          <div class="contact_us_social">
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-regular fa-envelope"></i></h4><span>mediahiveservice@gmail.com</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center my-2"><h4 class="mx-2"><i class="fa-solid fa-phone-volume"></i></h4><span>09-428180999</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-solid fa-location-dot"></i></h4><span>Myanmar, Downtown Yangoon</span></div>
+            <div class="row">
+              <div class="col-lg-4 text-center mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-instagram"></i></h3><a class="socialmedia" href="">Instagram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-facebook"></i></h3><a class="socialmedia" href="">Facebook</a></div>
+              </div>
+              <div class="col-lg-4 text-center ms-2 ms-sm-0 mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-telegram"></i></h3><a class="socialmedia" href="">Telegram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-square-x-twitter"></i></h3><a class="socialmedia" href="">Twitter/X</a></div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- Footer End  -->
+ 
+  
+
+
+  <!-- Bootstrp Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+  <!-- Script  -->
+   <script src="../JS/app.js"></script>
+   <script src="../JS/fitness.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+  </div>
+  
+</body>
+</html>

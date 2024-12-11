@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthNews - MediHive</title>
+   <!-- Font  -->
+   <!-- Header Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 
+   <!-- Text Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- Nav & Footer Font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="../Image/Favicon.PNG">
+   <!-- Bootstrap  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <!-- font-awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <!-- Css  -->
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/pages.css">
+   <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container-fluid">
+        <!-- Navbar Start  -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../Image/MediHive.png" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="navbar-togglefixforjs"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse nff" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown mx-2 text-md-center text-sm-center">
+              <a class="nav-link dropdown-toggle navbartext" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Health Conditions
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/physicalHealth.html">Physical Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mentalHealth.html">Mental Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mobileEffect.html">Effects From Mobile Devices</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/diet.html">Diet Tips</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/fitness.html">Fitness Tips</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/healthNews.html"><b>Health News</b></a>
+            </li>
+            <li class="nav-item  mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/doctors'_info.html">Doctors' info</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/contactUs.html">Contact Us</a>
+            </li>
+
+            <li class="text-center">
+              <div class="showbg-d" id="signupbtn">
+                <button type="button" class="btn btn-outline-light mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up</button>
+              </div>
+              <div class="hide" id="userinfobox">
+                <!-- <img src="imag" id="user-PFPimg" class="PFP" alt="Your Profile"> -->
+                <span class="username pe-3" id="user-username"></span>
+              </div>
+            </li>
+
+            <!-- Modal --> 
+            <li>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content modal-content_nav">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="slider"></div>
+                      <div class="Rbtn">
+                          <button class="signup">Signup</button>
+                          <button class="login">Login</button>
+                      </div>
+                      
+                      <div class="form-section">
+                        
+                        <div class="signup-from">
+                            <input type="text" 
+                                   class="name input_group" 
+                                   placeholder="Username"
+                                   id="nameinputresult">
+                                   
+                            <input type="email" 
+                                   class="email input_group" 
+                                   placeholder="Email Address"
+                                   id="registeremail">
+                            <input type="password" 
+                                   class="password input_group" 
+                                   placeholder="password">
+                            <input type="password" 
+                                   class="confirm_password input_group" 
+                                   placeholder="Confirm password">
+                            
+                            <button class="mybtn" id="signupSubmit" data-bs-dismiss="modal">Signup</button>
+                            <div class="form-text">Your information is safe and secure in our trusted care.</div>
+                            <p class="ahaa fs-6 text-center">Already have an account?</p>
+                        </div>
+  
+  
+                        <div class="login-from">
+                          <input type="email" 
+                                 class="email_login input_group" id="registeremailLogin" 
+                                 placeholder="youremail@email.com">
+                          <input type="password"
+                                 class="password_login input_group" 
+                                 placeholder="password">
+                          <button class="mybtn" id="login_btn" data-bs-dismiss="modal">Login</button>
+                      </div>
+                    </div>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </li> 
+            
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End  -->
+
+        <!-- Banner Start  -->
+        <section>
+          <div class="ms-auto me-auto row news_banner" data-aos="fade-up">
+            <div class="col-lg-6 col-md-6 col-sm-12 px-0">
+              <div id="carouselExampleCaptions" class="carousel slide healthnewcarousel" data-bs-ride="carousel">
+                <div class="carousel-indicators health-news-indicator">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="button  active" aria-current="true" aria-label="Slide 1"></button>
+                  <button class="button " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button class="button " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active bannernews_inner">
+                    <img src="../Image2/newsbanner_slider1.PNG" class="d-block  health-newsbannerimg1" alt="news_banner1">
+                    <div class="carousel-caption">
+                      <h5>The FDA wants these cold medicines off the shelves. Should Canada follow?</h5>
+                      <p>Cold and cough medications containing oral phenylephrine, a common ingredient found in many over-the-counter remedies, may soon disappear from U.S. shelves after the Food and Drug Administration (FDA) recently declared it ineffective.</p>
+                      <a href="https://globalnews.ca/news/10867394/oral-phenylephrine-cold-medication-fda-canada/" target="_blank" class="newsseemore">See More</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item bannernews_inner">
+                    <img src="../Image2/newsbanner_slider2.PNG" class="d-block health-newsbannerimg1" alt="news_banner2">
+                    <div class="carousel-caption">
+                      <h5>The really old, racist and non-medical origins of the BMI</h5>
+                      <p>It's a simple formula: weight in kilograms divided by height in metres squared and voila, you have your body mass index — a two-digit figure that slots you into a handful of equally clear-cut boxes.</p>
+                      <a href="https://www.abc.net.au/news/2022-01-02/the-problem-with-the-body-mass-index-bmi/100728416" target="_blank" class="newsseemore">See More</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item bannernews_inner">
+                    <img src="../Image3/newsbanner_slider3.PNG" class="d-block health-newsbannerimg1" alt="news_banner3">
+                    <div class="carousel-caption">
+                      <h5>'He was the light of my life and I lost him': How a famous surgeon died in an Israeli prison after being taken from Gaza hospital
+                      </h5>
+                      <p>When war in Gaza erupted last year, Dr Adnan Al-Bursh worked around the clock while documenting the horror unfolding around him. Then he was detained. Now, Sky News has spoken to people who claim to have witnessed the circumstances leading to his death.</p>
+                      <a href="https://news.sky.com/story/he-was-the-light-of-my-life-and-i-lost-him-how-a-famous-surgeon-died-in-an-israeli-prison-after-being-taken-from-gaza-hospital-13253157" target="_blank" class="newsseemore">See More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 px-0 gg">
+              <img src="../Image2/Newsbanner.png" class="health-newsbannerimg1" alt="newsbaner">
+            </div>
+          </div>
+        </section>
+
+        <!-- Banner End  -->
+
+        <!-- Recent News Start  -->
+
+        <section>
+          <h1 class="hf text-center my-3" data-aos="fade-up">Recent News</h1>
+          <div class="recent_newscontainer" data-aos="zoom-in">
+            <div class="row">
+              <div class="col-md-12">
+                <div id="recentnewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators nothealthnews-indicator">
+                    <button type="button" data-bs-target="#recentnewsCarousel" data-bs-slide-to="0" class="button active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="button" type="button" data-bs-target="#recentnewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="button" type="button" data-bs-target="#recentnewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews1.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">H5N1 bird flu infects five more humans in California, and one in Oregon</h2>
+                              <p>Health officials have announced six more H5N1 bird flu infections in humans: five in California and the first known case in Oregon..</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.latimes.com/environment/story/2024-11-15/h5n1-bird-flu-infects-six-more-humans-in-california-oregon&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgNEAI&usg=AOvVaw1YgP-jH9CofM8YUaTL6a2n" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews2.PNG" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Unacceptable' Measles Death Toll—Map Shows Where Cases Are Surging</h2>
+                              <p>The global measles (https://www.newsweek.com/measles-outbreak-map-us-18-jurisdictions-chicago-florida-1890830) crisis is deepening, with an alarming 20 percent surge in cases reported in 2023, compared with the previous year.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.newsweek.com/map-measles-cases-surging-unacceptable-death-toll-cdc-who-1986445&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgREAI&usg=AOvVaw3ixFJ2UjI1d2y8v3Q27hyt" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews3.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Researchers Zero In on First, Subtle Phase of Alzheimer's</h2>
+                              <p>A closeup of a human brain affected by Alzheimer's disease, is displayed at the Museum of Neuroanatomy at the University at Buffalo in Buffalo, NY, on Oct. 7, 2003.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.newser.com/story/359450/researchers-zero-in-on-first-subtle-phase-of-alzheimers.html&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgPEAI&usg=AOvVaw1ENtuzkP7zHVFrbKPctLnz" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews4.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Severe COVID-19 may shrink cancer tumors, early data suggest
+                                News (https://www.livescience.com/news)</h2>
+                              <p>Immune cells produced during severe COVID-19 infection may shrink tumors. The unexpected mechanism offers a new therapeutic possibility for advanced and treatment-resistant cancers.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.livescience.com/health/viruses-infections-disease/severe-covid-19-may-shrink-cancer-tumors-early-data-suggest&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgOEAI&usg=AOvVaw3tvbtCNVnypAZeyxZTzm_O" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews5.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Avian influenza confirmed in birds on Central Oahu property</h2>
+                              <p>State officials said today that avian influenza was detected in a backyard flock of various birds in Central Oahu, the first confirmed detection of the virus in Hawaii.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.staradvertiser.com/2024/11/15/breaking-news/avian-influenza-confirmed-in-birds-on-central-oahu-property/&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgMEAI&usg=AOvVaw2znnT1ax0xioOm3pgWn2av" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews6.PNG" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Want to live an extra 5 to 10 years? Adopt this habit, study suggests</h2>
+                              <p>In a busy world, the task of getting more movement into your daily life can often get put on the back burner. But there’s a reason to rethink your priorities — getting as active as the top 25% of the US population could extend your life by at least five years, according to a new study published Thursday in the British Journal of Sports Medicine.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://amp.cnn.com/cnn/2024/11/15/health/physical-activity-extend-life-expectancy-wellness&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQyM8BKAB6BAgIEAI&usg=AOvVaw2YZTm_ypJwLUKopBrhOtwU" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews7.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Now's the perfect time for your flu and COVID shots, according to doctors. Here's why.</h2>
+                              <p> If you still haven't gotten your COVID or flu shot, don't fret – experts say it's the perfect time to get vaccinated before the holidays are in full swing. 
+                                "It's not too late, and you can get them both at the same time, according to the CDC," CBS News chief medical correspondent Dr. Jon LaPook said on "CBS Mornings Plus" recently. 
+                                Why now?</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cbsnews.com/amp/news/when-to-get-flu-covid-shot-2024/&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQyM8BKAB6BAgGEAI&usg=AOvVaw1DjBsvsbgcuvv4EJ4Tj0fo" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews8.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Here's why an unbearable cough is surging in the Bay Area</h2>
+                              <p>Health experts are advising Bay Area residents to keep up with their vaccinations amid a steep rise in whooping cough cases. After a sharp drop in cases during the pandemic, the persistent, violent cough also known as pertussis is back.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sfgate.com/bayarea/article/why-whooping-cough-surging-bay-area-19920052.php&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgHEAI&usg=AOvVaw2gRFjarOMw4ARI6sRqfaaI" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/recentnews9.jpg" class="health-newsbannerimg1" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">New study predicts 260M obese Americans by 2050, Trump nominates RFK Jr. as health secretary, and the Onion buys Infowars.</h2>
+                              <p>
+                                Good morning, all. It’s Friday, Nov. 15, and Mariah Carey’s “All I Want for Christmas Is You” is back at the top of the charts. Now, on to the news.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.yahoo.com/news/new-study-predicts-260m-obese-americans-by-2050-trump-nominates-rfk-jr-as-health-secretary-and-the-onion-buys-infowars-135035003.html&ved=2ahUKEwid2ZCx8eCJAxXuI0QIHcWUFzoQxfQBKAB6BAgJEAI&usg=AOvVaw0rBCi6Z-aMlKLSvaaShmvR" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recent News End  -->
+
+        <!-- Popular News Start  -->
+
+        <section>
+          <h1 class="hf text-center my-5" data-aos="fade-up">Popular News</h1>
+          <div class="popular_newscontainer" data-aos="zoom-in">
+            <div class="row">
+              <div class="col-md-12">
+                <div id="popularnewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators nothealthnews-indicator">
+                    <button type="button" data-bs-target="#popularnewsCarousel" data-bs-slide-to="0" class="button active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="button" type="button" data-bs-target="#popularnewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="button" type="button" data-bs-target="#popularnewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews1.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Measles</h2>
+                              <p>Measles is a highly contagious, serious airborne disease caused by a virus that can lead to severe complications and death.Measles vaccination averted more than 60 million deaths between 2000 and 2023. </p>
+                            </div>
+                            <a href="https://www.who.int/news-room/fact-sheets/detail/measles" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews2.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">U.S. Declared Measles Gone in 2000 — New Outbreaks May Change That</h2>
+                              <p>The US has experienced 338 reported cases of measles between January 1, 2020 and March 28, 2024, according to the CDC. Nearly one-third of those cases (29%) occurred during the first quarter of 2024, representing a 17-fold increase over the average number of cases reported during the same time period between 2020-2023.</p>
+                            </div>
+                            <a href="https://www.healthline.com/health-news/u-s-declared-measles-eliminated-in-2000-new-outbreaks-could-change-that" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews3.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Viral: Glen Powell's ‘crazy’ cannibal story throws the Internet off balance, unearths urban legend from early 2000s</h2>
+                              <p>Hit Man star Glen Powell again became the talk of the Internet, but this time for concerning reasons as he recounted a “crazy” tale on the ‘Therapuss’ podcast.</p>
+                            </div>
+                            <a href="https://www.hindustantimes.com/entertainment/hollywood/viral-glen-powells-crazy-cannibal-story-throws-the-internet-off-balance-unearths-urban-legend-from-early-2000s-101717943053485.html" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews4.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Dengue - Global situation</h2>
+                              <p>The global incidence of dengue has markedly increased over the past two decades, posing a substantial public health challenge. From 2000 to 2019, the World Health Organization (WHO) documented a ten-fold surge in reported cases worldwide increasing from 500 000 to 5.2 million. The year 2019 marked an unprecedented peak, with reported instances spreading across 129 countries.</p>
+                            </div>
+                            <a href="https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews5.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Only 2% of TikTok Diet and Nutrition Trends Are Accurate: 5 Things to Know</h2>
+                              <p>The fact that fad diets and nutrition advice are widely shared on social media platforms like TikTok is not new news. However, a new survey conducted by MyFitnessPal and Dublin City University suggests the majority of diet and nutrition trends on TikTok are not aligned with public health and nutrition guidelines.</p>
+                            </div>
+                            <a href="https://www.healthline.com/health-news/tiktok-diet-trends-inaccurate" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews6.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Social media hosted a lot of fake health news this year. Here's what went most viral.</h2>
+                              <p>The most viral health misinformation in 2019 was on the topics of cancer, unproven cures and vaccines, according to an NBC News review. </p>
+                            </div>
+                            <a href="https://www.nbcnews.com/news/us-news/social-media-hosted-lot-fake-health-news-year-here-s-n1107466" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews7.PNG" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Do you really need to walk 10,000 steps to see health benefits?</h2>
+                              <p>Over the last several years, studies have been trying to answer the question: “How many steps a day should I walk to derive a health benefit?” A new meta-study analyzes the results of 12 such investigations, and its conclusions may provide the most definitive answer yet.</p>
+                            </div>
+                            <a href="https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews8.png" class="health-newsbannerimg1" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">WHO Warns Climate Change Causing Surge in Mosquito-Borne Diseases</h2>
+                              <p>GENEVA —
+                                Climate change, deforestation, and urbanization are some of the major risk factors behind the increasing number of outbreaks of viruses such as dengue, Zika, and chikungunya around the world, warns a study by the World Health Organization.</p>
+                            </div>
+                            <a href="https://www.bbc.com/news/articles/c75nry66y52o" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/famousnews9.png" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Girls are getting their first periods earlier. Here's what parents should know</h2>
+                              <p>Girls in the U.S. are getting their first menstrual period about 6 months earlier on average than they did in the 1950s and ‘60s. And more girls are beginning menstruation before the age of 9, which is considered a very early age. That’s according to a large new study published this week in the journal JAMA Network Open.</p>
+                            </div>
+                            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.npr.org%2Fsections%2Fshots-health-news%2F2024%2F05%2F31%2Fnx-s1-4985074%2Fgirls-are-getting-their-first-periods-earlier-heres-what-parents-should-know&psig=AOvVaw2_vTq2vyKMK1Ib7ewBRuX4&ust=1731857677186000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPDrid2W4YkDFQAAAAAdAAAAABAf" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Popular News End  -->
+
+        <!-- Old News Start  -->
+
+        <section class="my-5">
+          <h1 class="hf text-center my-3" data-aos="fade-up">Old News</h1>
+          <div class="recent_newscontainer" data-aos="zoom-in">
+            <div class="row">
+              <div class="col-md12">
+                <div id="oldnewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators nothealthnews-indicator">
+                    <button type="button" data-bs-target="#oldnewsCarousel" data-bs-slide-to="0" class="button active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="button" type="button" data-bs-target="#oldnewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="button" type="button" data-bs-target="#oldnewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews1.PNG" alt="oldnews1"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Their First Baby Came With Medical Debt. These Illinois Parents Won’t Have Another.</h2>
+                              <p>JACKSONVILLE, Ill. — Heather Crivilare was a month from her due date when she was rushed to an operating room for an emergency cesarean section.</p>
+                            </div>
+                            <a href="https://kffhealthnews.org/news/article/babies-come-with-medical-debt/" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews2.PNG" alt="oldnews2"></div>
+                            <div class="img-text">
+                              <h2 class="hf">MetroHealth and MUSC Health launch virtual-first telehealth company</h2>
+                              <p>It is no secret that health systems face growing competition from industries like venture-backed healthcare disruptors and health insurance that are offering increasingly specialized and consumer-focused virtual care offerings.</p>
+                            </div>
+                            <a class="d-block mt-5" href="https://www.healthcareitnews.com/news/metrohealth-and-musc-health-launch-virtual-first-telehealth-company" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews3.PNG" alt="oldnews3"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Central Oregon’s first graduate medical education program launches</h2>
+                              <p>OHSU-St. Charles Three Sisters Rural Track Program trains family medicine physicians, aims to improve health care access in rural Oregon</p>
+                            </div>
+                            <a href="https://news.ohsu.edu/2024/06/25/central-oregons-first-graduate-medical-education-program-launches" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews4.PNG" alt="oldnews4"></div>
+                            <div class="img-text">
+                              <h2 class="hf">
+                                WHO prequalifies the first vaccine against mpox</h2>
+                              <p>The World Health Organization (WHO) has announced the MVA-BN vaccine as the first vaccine against mpox to be added to its prequalification list.</p>
+                            </div>
+                            <a href="https://www.who.int/news/item/13-09-2024-who-prequalifies-the-first-vaccine-against-mpox" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews5.PNG" alt="oldnews5"></div>
+                            <div class="img-text">
+                              <h2 class="hf">How Old Is Too Old for a Colonoscopy?</h2>
+                              <p>Colonoscopy remains the gold standard method for detecting colorectal cancer (CRC) and removing precancerous polyps.</p>
+                            </div>
+                            <a href="https://www.medscape.com/viewarticle/how-old-too-old-colonoscopy-2024a1000fkn?form=fpf" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews6.jpg" alt="oldnews6"></div>
+                            <div class="img-text mb-5">
+                              <h2 class="hf">City of Hope cures oldest person of blood cancer and achieves HIV remission</h2>
+                              <p>City of Hope®, one of the largest cancer research and treatment organizations in the United States, treated the oldest person to be cured of a blood cancer and then achieve remission for HIV after receiving a blood stem cell transplant from a donor with a rare genetic mutation.</p>
+                            </div>
+                            <a class="mt-4" href="https://www.news-medical.net/news/20240215/City-of-Hope-cures-oldest-person-of-blood-cancer-and-achieves-HIV-remission.aspx" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews7.PNG" alt="oldnews7"></div>
+                            <div class="img-text">
+                              <h2 class="hf">First drug to slow Alzheimer’s too costly for NHS</h2>
+                              <p>The first drug to slow the progression of early stage Alzheimer’s will not be available on the NHS in England because health assessment body NICE says the benefits “are too small to justify the costs”.</p>
+                            </div>
+                            <a href="https://www.bbc.com/news/articles/c75nry66y52o" target="_blank"><button class="btn">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews8.PNG" alt="oldnews8"></div>
+                            <div class="img-text">
+                              <h2 class="hf">Bangladesh dengue deaths cross 1,000 in worst outbreak on record</h2>
+                              <p>At least 1,017 die and nearly 209,000 are infected, making 2023 the deadliest year since the first recorded epidemic in 2000.</p>
+                            </div>
+                            <a href="https://www.aljazeera.com/news/2023/10/2/bangladesh-dengue-deaths-cross-1000-in-worst-outbreak-on-record" target="_blank"><button class="btn ">See More</button></a>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single-box text-center px-3">
+                            <div class="img-area"><img src="../image3/oldnews9.PNG" alt="oldnews9"></div>
+                            <div class="img-text">
+                              <h2 class="hf">How many calories should I eat a day?</h2>
+                              <p>
+                                Adults typically require between 1,600–3,000 calories per day. However, how many calories a person should eat in a day varies depending on a person’s sex, age, height, and lifestyle..
+                              </p>
+                            </div>
+                            <a href="https://www.medicalnewstoday.com/articles/245588" target="_blank"><button class="btn ">See More</button></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Old News End  -->
+        <div class="chat_icon"><a href="chat.html" class="chat_link"><img src="../image2/chaticon.png" alt="chaticon"></a></div>
+        
+
+     <!-- Footer Start  -->
+   <footer>
+    <div class="container-fluid my-2 py-3 ">
+      <div class="row nff">
+        <!-- Register -->
+        <div class="col-lg-3">
+          <form action="">
+            <h3 class="hf"><b>Register Here!</b></h3>
+            <p>With the help of your cooperation and signing up for our service, we shall help you with personal doctors within your interest! Sign up below to receive this offer! </p>
+            <div class="d-flex flex-column">
+              <input type="text" class="form-control" placeholder="Email Address" id="footerregisteremail">
+              <button type="button" class="btn ft-signup mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="regfooterbtn">Sign Up</button>
+            </div>
+          </form>
+          <img class="imgconfigforfooter" src="../Image/arrowfooter.png" alt="arrowfooter">
+        </div>
+        <!-- Nav Pages -->
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div>
+                <div class="my-1"><a href="../index.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Home</h4></a></div>
+                <div class="my-1"><a href="../pages/aboutUs.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">About Us</h4></a></div>
+                <div class="my-1"><a href="../pages/physicalHealth.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Physical Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mentalHealth.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Mental Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mobileEffect.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Effects From Mobile Devices</h4></a></div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="my-1"><a href="../pages/healthNews.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Health News</h4></a></div> 
+               <div class="my-1"><a href="../pages/doctors's_info.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Doctors' Info</h4></a></div>
+               <div class="my-1"><a class="contactnav" href="../pages/PrivacyPolicy.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Our Policies</h5></a></div>
+               <div class="my-1"><a href="../pages/diet.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Diet Tips</h4></a></div>
+               <div class="my-1"><a href="../pages/fitness.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Fitness Tips</h4></a></div>
+              <div class="my-1"><a class="contactnav" href="../Citation 2024-2025.docx"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Reference</h5></a></div>
+
+            </div>
+            <p class="text-center mt-5"> &copy; 2024-2025 MediHive. All rights reserved </p>
+          </div>
+        </div>
+        <!-- Contact Us -->
+        <div class="col-lg-3 ">
+          <div class="text-center"><a href="../pages/contactUs.html"><h2 class="contactustitle">Contact Us</h2></a></div>
+          <div class="contact_us_social">
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-regular fa-envelope"></i></h4><span>mediahiveservice@gmail.com</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center my-2"><h4 class="mx-2"><i class="fa-solid fa-phone-volume"></i></h4><span>09-428180999</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-solid fa-location-dot"></i></h4><span>Myanmar, Downtown Yangoon</span></div>
+            <div class="row">
+              <div class="col-lg-4 text-center mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-instagram"></i></h3><a class="socialmedia" href="">Instagram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-facebook"></i></h3><a class="socialmedia" href="">Facebook</a></div>
+              </div>
+              <div class="col-lg-4 text-center ms-2 ms-sm-0 mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-telegram"></i></h3><a class="socialmedia" href="">Telegram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-square-x-twitter"></i></h3><a class="socialmedia" href="">Twitter/X</a></div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- Footer End  -->
+ 
+  
+
+
+  <!-- Bootstrp Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+  <!-- Script  -->
+   <script src="../JS/app.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Diet - MediHive</title>
+   <!-- Font  -->
+   <!-- Header Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 
+   <!-- Text Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- Nav & Footer Font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="../Image/Favicon.PNG">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <!-- font-awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <!-- Css  -->
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/pages.css">
+   <!-- Aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-fluid">
+    <!-- Navbar Start  -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../Image/MediHive.png" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="navbar-togglefixforjs"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse nff" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown mx-2 text-md-center text-sm-center">
+              <a class="nav-link dropdown-toggle navbartext" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Health Conditions</b>
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/physicalHealth.html">Physical Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mentalHealth.html">Mental Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mobileEffect.html">Effects From Mobile Devices</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-md-center text-sm-center active" href="../pages/diet.html">Diet Tips</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/fitness.html">Fitness Tips</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/healthNews.html">Health News</a>
+            </li>
+            <li class="nav-item  mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/doctors'_info.html">Doctors' info</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/contactUs.html">Contact Us</a>
+            </li>
+
+            <li class="text-center">
+              <div class="showbg-d" id="signupbtn">
+                <button type="button" class="btn btn-outline-light mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up</button>
+              </div>
+              <div class="hide" id="userinfobox">
+                <!-- <img src="imag" id="user-PFPimg" class="PFP" alt="Your Profile"> -->
+                <span class="username pe-3" id="user-username"></span>
+              </div>
+            </li>
+
+            <!-- Modal --> 
+            <li>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content modal-content_nav">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="slider"></div>
+                      <div class="Rbtn">
+                          <button class="signup">Signup</button>
+                          <button class="login">Login</button>
+                      </div>
+                      
+                      <div class="form-section">
+                        
+                        <div class="signup-from">
+                            <input type="text" 
+                                   class="name input_group" 
+                                   placeholder="Username"
+                                   id="nameinputresult">
+                                   
+                            <input type="email" 
+                                   class="email input_group" 
+                                   placeholder="Email Address"
+                                   id="registeremail">
+                            <input type="password" 
+                                   class="password input_group" 
+                                   placeholder="password">
+                            <input type="password" 
+                                   class="confirm_password input_group" 
+                                   placeholder="Confirm password">
+                            
+                            <button class="mybtn" id="signupSubmit" data-bs-dismiss="modal">Signup</button>
+                            <div class="form-text">Your information is safe and secure in our trusted care.</div>
+                            <p class="ahaa fs-6 text-center">Already have an account?</p>
+                        </div>
+  
+  
+                        <div class="login-from">
+                          <input type="email" 
+                                 class="email_login input_group" id="registeremailLogin" 
+                                 placeholder="youremail@email.com">
+                          <input type="password"
+                                 class="password_login input_group" 
+                                 placeholder="password">
+                          <button class="mybtn" id="login_btn" data-bs-dismiss="modal">Login</button>
+                      </div>
+                    </div>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </li> 
+            
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End  -->
+
+        <!-- Banner Section Start -->
+            <!-- Top Part  -->
+
+            <section>
+              <div class="dietbanner">
+                <div class="dietbannertext text-light">
+                    <h1>Diet For Fitness and Health</h1>
+                </div>
+              </div>
+            </section>
+            
+            <div class="container mb-5" data-aos="fade-up">
+              <div class="row d-flex justify-content-evenly">
+                <div class="col-4 meatcontainer">
+                  <div class="text-center">
+                    <img class="img-fluid MandVimg" src="../image3/steak.png" alt="">
+                    <h3>Weight Gain</h3>
+                    <button class="btn rounded-pill banner_btn mt-5" data-bs-toggle="modal" data-bs-target="#weightgain">Learn More</button>
+                  </div>
+                </div>
+                <div class="col-4 vegiecontainer">
+                  <div class="text-center">
+                    <img class="img-fluid MandVimg" src="../image3/vegetables.png" alt="">
+                    <h3>Weight Loss</h3>
+                    <button class="btn rounded-pill banner_btn mt-5" data-bs-toggle="modal" data-bs-target="#weightloss">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- modals -->
+            <section>
+              <div>
+                <div data-aos="fade-up"  class="modal fade" id="weightgain" tabindex="-1" aria-labelledby="WeightGainModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5">Weight Gain</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Increase your caloric intake</h3>
+                        <p>The most important thing you can do to gain weight is to create a calorie surplus, meaning you eat more calories than your body needs.
+
+                          You can determine your calorie needs using this calorie calculator.
+                          
+                          If you want to gain weight slowly and steadily, try aiming for 300–500 calories more than you burn each day according to the calculator. If you want to gain weight fast, try aiming for around 700–1,000 calories above your maintenance level.
+                          
+                          Keep in mind that calorie calculators only provide estimates. Your needs may vary by several hundred calories per day, give or take.
+                          
+                          You don’t need to count calories forever, but it can help to do it for the first few days or weeks to get a feel for how many calories you’re eating. There are many great tools out there to help you.</p>
+                          <h3>Eat more protein</h3>
+                          <p>Eating enough high quality proteins is essentialTrusted Source for optimal growth, development, and general health.
+
+                            A 2020 study of 23 individualsTrusted Source demonstrated that increasing protein can help increase lean muscle mass.
+                            
+                            The Food and Drug Administration (FDA) recommends adults eat 50 grams (g) of protein daily. However, this can vary for each individual and depends on factors such as age, sex, and medical history.
+                            
+                            High protein foods include:
+                            
+                            meats
+                            fish
+                            eggs
+                            dairy products
+                            legumes
+                            nuts
+                            Protein supplements like whey protein can also be helpful if you find it difficult to get enough protein in your diet.
+                            
+                            However, protein may also significantly reduce hunger and appetiteTrusted Source, making it harder to get enough calories.
+                            
+                            Consider speaking with a doctor to see if increasing your protein intake would help you achieve your goal of gaining weight safely.
+                            </p>
+                            <h3>Increase your intake of carbs</h3>
+                            <p>Carbohydrates (carbs) alone will not lead to an increase in weight, but they can provideTrusted Source a great way to consume more calories.
+
+                              Examples of foods high in healthy carbs include:
+                              
+                              oats
+                              quinoa
+                              fruits, like oranges, bananas, and blueberries
+                              sweet potato
+                              buckwheat
+                              Carbs are a vital part of a balanced diet. The amount you should aim to eat each day can depend on several factors, such as your age, sex, and overall health. However, in general, experts recommend that 45% to 65% of your daily calories should come from carbs.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div>
+                <div class="modal fade" id="weightloss" tabindex="-1" aria-labelledby="WeightLossModalLabel" aria-hidden="true" data-aos="fade-up">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5">Weight Loss</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Tracking Your Diet and Exercise</h3>
+                        <p>
+                          If someone wants to lose weight, they should be aware of what they eat and drink each day. One way to do this is to log these items in either a journal or an online food tracker.
+                          
+                          Research Trusted Source suggests that tracking diet and exercise may be helpful for weight loss because it promotes behavior changes and increases motivation.
+                          
+                          One Study Trusted Source found that consistent tracking of physical activity helped with weight loss. Even a device as simple as a pedometer can be a useful weight-loss.</p>
+                          <h3>Eating Mindfully</h3>
+                          <p>Mindful eating is a practice where people pay attention to how and where they eat food. This practice can enable people to enjoy the food they eat and enjoy it.
+
+                            As most people lead busy lives, they often tend to eat quickly on the run, in the car, working at their desks, and watching TV. As a result, many people are barely aware of the food they are eating.
+                            Techniques for mindful eating include:
+                            <ul>
+                              <li>Sitting down to eat, preferably at a table: Pay attention to the food and enjoy the experience.</li>
+                              <li>Avoiding distractions while eating: Do not turn on the TV, or a laptop or phone.</li>
+                              <li> Eating slowly: Take time to chew and savor the food. This technique helps with weight loss, as it gives a person’s brain enough time to recognize the signals that they are full, which can help to prevent over-eating.</li>
+                              <li>Making considered food choices: Choose foods that are full of nourishing nutrients and those that will satisfy for hours rather than minutes.</li>
+                            </ul>
+                          </p>
+                          <h3>Cutting back on sugar and refined carbohydrates</h3>
+                          <p>The Western diet is increasingly high in added sugars, which has definite links to an obesity Trusted Source, even when the sugar occurs in beveragesTrusted Source rather than food.
+
+                            Refined grains undergo processing to remove the bran and the germ, which contain most of the grain’s fiber and nutrients. These include white rice, white bread, and regular pasta.
+                            
+                            These foods are quick to digest, and they convert to glucose rapidly. Excess glucose enters the blood and provokes the hormone insulin, which promotes fat storage in the adipose tissue. This contributes to weight gain.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          <!-- Banner Section End  -->
+
+
+          <!-- Recipie Section  -->
+          <section class="recepisection">
+            <h1 class="hf text-center" data-aos="zoom-in"> Meal for a healthier life</h1>
+  
+              <div class="row" data-aos="fade-up">
+                <div class="col-md12">
+                  <div id="DietCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators nothealthnews-indicator">
+                      <button type="button" data-bs-target="#DietCarousel" data-bs-slide-to="0" class="button active" aria-current="true" aria-label="Slide 1"></button>
+                      <button class="button" type="button" data-bs-target="#DietCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button class="button" type="button" data-bs-target="#DietCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+  
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food1_redpotatos.jpg" alt="meal1"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Red Potatoes</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 27g</li>
+                                  <li>Proteins : 3g</li>
+                                  <li>Healthy Fats : 5g</li>
+                                  <li>Total Calories : 159</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food2_Garden Salad Recipe_ Easy, Fresh & Healthy.jpg" alt="meal2"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Garden Salad</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 8g</li>
+                                  <li>Proteins : 4g</li>
+                                  <li>Healthy Fats : 16g</li>
+                                  <li>Total Calories : 190</li>
+                                </ul>  
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food3_Mixed Vegetable Bake.jpg" alt="meal3"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Mixed Vegetables</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 21g</li>
+                                  <li>Proteins : 2g</li>
+                                  <li>Healthy Fats : 9g</li>
+                                  <li>Total Calories : 180</li>
+                                </ul>  
+                              </div>
+                            </div>
+                          </div>
+  
+                        </div>
+                      </div>
+  
+                      <div class="carousel-item">
+                        <div class="row">
+  
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food4_PorkChops.jpg" alt="meal4"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Pork Chops</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 2g</li>
+                                  <li>Proteins : 28g</li>
+                                  <li>Healthy Fats : 19g</li>
+                                  <li>Total Calories : 288</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food5_Sheet Pan Beef and Sweet Potatoes with Gremolata.jpg" alt="meal5"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Beef</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 27g</li>
+                                  <li>Proteins : 26g</li>
+                                  <li>Healthy Fats : 14g</li>
+                                  <li>Total Calories : 335</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food6_ChickenBreasts.jpg" alt="meal6"></div>
+                              <div class="img-text mb-5">
+                                <h2 class="hf">Chicken</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 0g</li>
+                                  <li>Proteins : 53g</li>
+                                  <li>Healthy Fats : 6g</li>
+                                  <li>Total Calories : 284</li>
+                                </ul>  
+                              </div>
+                            </div>
+                          </div>
+  
+                        </div>
+                      </div>
+  
+                      <div class="carousel-item">
+                        <div class="row">
+  
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/food7_Deviled eggs" alt="meal7"></div>
+                              <div class="img-text">
+                                <h2 class="hf">Eggs</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>1 Egg</li>
+                                  <li>Carbs : 1g</li>
+                                  <li>Proteins : 7g</li>
+                                  <li>Healthy Fats : 9g</li>
+                                  <li>Total Calories : 113</li>
+                                </ul>  
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/drink1.jpg" alt="meal8"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Protein Shake</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 5g</li>
+                                  <li>Proteins : 24g</li>
+                                  <li>Healthy Fats : 10g</li>
+                                  <li>Total Calories : 282</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="single-box px-3">
+                              <div class="img-area-diet"><img src="../image3/drink2.png" alt="meal9"></div>
+                              <div class="img-text">
+                                <h2 class="hf text-center">Lime Drink</h2>
+                                <ul class="ms-5 text-start fs-5 tf">
+                                  <li>Carbs : 7g</li>
+                                  <li>Proteins : 0.5g</li>
+                                  <li>Healthy Fats : 0g</li>
+                                  <li>Total Calories : 20</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+  
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </section>
+
+          <div class="chat_icon"><a href="chat.html" class="chat_link"><img src="../image2/chaticon.png" alt="chaticon"></a></div>
+
+     <!-- Footer Start  -->
+   <footer>
+    <div class="container-fluid my-2 py-3 ">
+      <div class="row nff">
+        <!-- Register -->
+        <div class="col-lg-3">
+          <form action="">
+            <h3 class="hf"><b>Register Here!</b></h3>
+            <p>With the help of your cooperation and signing up for our service, we shall help you with personal doctors within your interest! Sign up below to receive this offer! </p>
+            <div class="d-flex flex-column">
+              <input type="text" class="form-control" placeholder="Email Address" id="footerregisteremail">
+              <button type="button" class="btn ft-signup mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="regfooterbtn">Sign Up</button>
+            </div>
+          </form>
+          <img class="imgconfigforfooter" src="../Image/arrowfooter.png" alt="arrowfooter">
+        </div>
+        <!-- Nav Pages -->
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div>
+                <div class="my-1"><a href="../index.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Home</h4></a></div>
+                <div class="my-1"><a href="../pages/aboutUs.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">About Us</h4></a></div>
+                <div class="my-1"><a href="../pages/physicalHealth.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Physical Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mentalHealth.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Mental Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mobileEffect.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Effects From Mobile Devices</h4></a></div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="my-1"><a href="../pages/healthNews.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Health News</h4></a></div> 
+               <div class="my-1"><a href="../pages/doctors's_info.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Doctors' Info</h4></a></div>
+               <div class="my-1"><a class="contactnav" href="../pages/PrivacyPolicy.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Our Policies</h5></a></div>
+               <div class="my-1"><a href="../pages/diet.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Diet Tips</h4></a></div>
+               <div class="my-1"><a href="../pages/fitness.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Fitness Tips</h4></a></div>
+              <div class="my-1"><a class="contactnav" href="../Citation 2024-2025.docx"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Reference</h5></a></div>
+
+            </div>
+            <p class="text-center mt-5"> &copy; 2024-2025 MediHive. All rights reserved </p>
+          </div>
+        </div>
+        <!-- Contact Us -->
+        <div class="col-lg-3 ">
+          <div class="text-center"><a href="../pages/contactUs.html"><h2 class="contactustitle">Contact Us</h2></a></div>
+          <div class="contact_us_social">
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-regular fa-envelope"></i></h4><span>mediahiveservice@gmail.com</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center my-2"><h4 class="mx-2"><i class="fa-solid fa-phone-volume"></i></h4><span>09-428180999</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-solid fa-location-dot"></i></h4><span>Myanmar, Downtown Yangoon</span></div>
+            <div class="row">
+              <div class="col-lg-4 text-center mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-instagram"></i></h3><a class="socialmedia" href="">Instagram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-facebook"></i></h3><a class="socialmedia" href="">Facebook</a></div>
+              </div>
+              <div class="col-lg-4 text-center ms-2 ms-sm-0 mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-telegram"></i></h3><a class="socialmedia" href="">Telegram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-square-x-twitter"></i></h3><a class="socialmedia" href="">Twitter/X</a></div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- Footer End  -->
+ 
+  
+
+
+    <!-- Bootstrp Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+  <!-- Script  -->
+   <script src="../JS/app.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+
+  </div>
+</body>
+</html>

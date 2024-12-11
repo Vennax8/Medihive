@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+   <!-- Text Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- Nav & Footer Font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="../Image/Favicon.PNG">
+   <!-- Bootstrap  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body class="contactusbody">
+  <div class="back-arrow-body rounded-pill"><a href="../index.html" class="back-arrow ms-3 mt-3"><i class="fa-solid fs-4 fa-arrow-turn-down"></i></a></div>
+  
+  
+  <img class="contactusbanner" src="../Image2/contactusbanner.png" alt="contactus_banner">
+  <h1 class="contactush1 hf mt-3">Contact Us!</h1>
+  <div class="contactustoppart nff">
+   <div class="locationcontainer">
+    <img src="../image2/location_icon.png" id="locationicon" alt="locationicon">
+    <p class="fs-4" id="location"><b>Location</b></p>
+    <p id="location">Myanmar, Downtown Yangoon</p>
+   </div>
+   <div class="phnumbercontainer">
+    <img src="../Image2/phone_icon.png" id="phnumbericon" alt="phoneicon">
+    <p class="fs-4" id="phnumber"><b>Phone Number</b></p>
+    <p id="phnumber">09-428180999</p>
+   </div>
+    <div class="emailcontainer">
+      <img src="../Image2/email_icon.png" id="emailicon" alt="emailicon">
+    <p class="fs-4" id="email"><b>Email</b></p>
+    <p id="email">mediahiveservice@gmail.com</p>
+    </div>
+  </div>
+
+  <div class="whycontactuscontainer d-flex justify-content-center my-4 ">
+    <div class="whycontactusbox p-5">
+      <h1 class="hf text-center">Why Contact Us?</h1>
+      <p class="nff px-5 text-center fs-5">We highly value your feedback and want to make sure you have the best experience with us. If there's something you don't understand, a suggestion you'd like to share, or an issue you'd like us to address, please don’t hesitate to reach out. <br><br> We’re committed to providing detailed information to answer your questions and will do everything we can to fix any problems you’ve noticed. Your input helps us grow and improve, so don’t hold back—we’re here for you anytime, 24/7. Let us know how we can assist or make things better for you!</p>
+    </div>
+  </div>
+
+  <div class="linecontactus"></div>
+  <br>
+
+  <div class="bottomcontainer fs-5 my-2 nff">
+    <div class="bottompart1 row">
+      <div class="col-lg-7 col-md-12 col-sm-12">
+        <label for="nameinput" class="form-label">Name</label>
+        <input type="text" class="form-control" id="nameinput">
+
+        <label for="phnumberinput" class="form-label">Phone No.</label>
+        <input type="text" class="form-control" id="phnumberinput">
+
+        <label for="emailinput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailinput">
+
+        <label for="messageinput" class="form-label">What would you like to ask or recommend to us?</label>
+        <textarea class="form-control" placeholder="Leave a comment here" id="messageinput"></textarea>
+
+        <button type="submit" class="contactussubmit btn btn-primary mt-2 fs-5 btn-lg" id="Cusubmit">Submit</button>
+      </div>
+      <div class="rightsideform col-lg-5 col-md-12 col-sm-12 d-flex flex-column align-items-center">
+        <img src="../Image2/contactusvector.webp" class="contact_usvector" alt="contact us graphic image">
+      </div>
+    </div>
+  </div>
+
+  <div class="contactusfooter py-5">
+    <p class="text-center mt-5"> <b> &copy; 2024-2025 MediHive. All rights reserved</b> </p>
+  </div>
+  
+  <script src="../JS/contactus.js"></script>
+</body>
+</html>

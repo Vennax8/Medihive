@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health - MediHive</title>
+   <!-- Font  -->
+   <!-- Header Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 
+   <!-- Text Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- Nav & Footer Font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&family=SUSE:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="../Image/Favicon.PNG">
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <!-- font-awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <!-- Css  -->
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/pages.css">
+   <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar Start  -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../Image/MediHive.png" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="navbar-togglefixforjs"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse nff" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown mx-2 text-md-center text-sm-center">
+              <a class="nav-link dropdown-toggle navbartext" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Health Conditions</b>
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/physicalHealth.html">Physical Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center active" href="../pages/mentalHealth.html">Mental Health</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/mobileEffect.html">Effects From Mobile Devices</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/diet.html">Diet Tips</a></li>
+                <li><a class="dropdown-item text-md-center text-sm-center " href="../pages/fitness.html">Fitness Tips</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/healthNews.html">Health News</a>
+            </li>
+            <li class="nav-item  mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/doctors'_info.html">Doctors' info</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center ">
+              <a class="nav-link navbartext" href="../pages/aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item mx-2 text-md-center text-sm-center">
+              <a class="nav-link navbartext" href="../pages/contactUs.html">Contact Us</a>
+            </li>
+
+            <li class="text-center">
+              <div class="showbg-d" id="signupbtn">
+                <button type="button" class="btn btn-outline-light mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up</button>
+              </div>
+              <div class="hide" id="userinfobox">
+                <!-- <img src="imag" id="user-PFPimg" class="PFP" alt="Your Profile"> -->
+                <span class="username pe-3" id="user-username"></span>
+              </div>
+            </li>
+
+            <!-- Modal --> 
+            <li>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content modal-content_nav">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                      <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="slider"></div>
+                      <div class="Rbtn">
+                          <button class="signup">Signup</button>
+                          <button class="login">Login</button>
+                      </div>
+                      
+                      <div class="form-section">
+                        
+                        <div class="signup-from">
+                            <input type="text" 
+                                   class="name input_group" 
+                                   placeholder="Username"
+                                   id="nameinputresult">
+                                   
+                            <input type="email" 
+                                   class="email input_group" 
+                                   placeholder="Email Address"
+                                   id="registeremail">
+                            <input type="password" 
+                                   class="password input_group" 
+                                   placeholder="password">
+                            <input type="password" 
+                                   class="confirm_password input_group" 
+                                   placeholder="Confirm password">
+                            
+                            <button class="mybtn" id="signupSubmit" data-bs-dismiss="modal">Signup</button>
+                            <div class="form-text">Your information is safe and secure in our trusted care.</div>
+                            <p class="ahaa fs-6 text-center">Already have an account?</p>
+                        </div>
+  
+  
+                        <div class="login-from">
+                          <input type="email" 
+                                 class="email_login input_group" id="registeremailLogin" 
+                                 placeholder="youremail@email.com">
+                          <input type="password"
+                                 class="password_login input_group" 
+                                 placeholder="password">
+                          <button class="mybtn" id="login_btn" data-bs-dismiss="modal">Login</button>
+                      </div>
+                    </div>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </li> 
+            
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End  -->
+
+        <!-- Banner Start  -->
+        <section>
+          <div class="mentalhealthbanner" >
+            <div class="mentalhealthbannertext text-light" data-aos="fade-up">
+                <h1>The Mental Health Impact During The Recent Years</h1>
+                <div>In recent years, mental health has been profoundly impacted by global events like the COVID-19 pandemic, economic instability, and rapid social changes, leading to heightened levels of stress, anxiety, and depression. </div>
+                <div>Social isolation, job insecurity, and the influence of social media have intensified these challenges, particularly among younger generations. </div>
+                <div>As a result, there is an urgent need for improved mental health support and community awareness to foster resilience and well-being.</div>
+            </div>
+        </div>
+        </section>
+        <!-- Banner End  -->
+
+        <!-- bodytext start -->
+
+        <section>
+          <div class="container my-5" data-aos="fade-up">
+            <div class="text-dark mentalhealthinfobg mentalhealthinfods py-4 px-4">
+              <div class="text-center text-dark"><h1><b>Causes Of Mental Health Disorders</b></h1></div>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
+                  <p>
+                    Mental health disorders involve multifaceted etiology that includes genetic, biological, and environmental factors, plus lifestyle factors-sometimes singly or interactively. It is in this respect that family history may make a contribution to the said conditions, describing, as it were, the part genes play in mental health conditions. Biological influences include chemical imbalances in the brain, hormonal changes, and such other factors that trigger depression or anxiety neuroses. Traumatic experiences, chronic stress, and major life events are all types of environmental stressors that can provoke or exacerbate symptoms. Lifestyle factors, such as diet, exercise, substance use, and sleep, also contribute to mental disorders, as do social circumstances including social isolation or a lack of social support. In many cases, multiple factors combine to create mental health conditions; thus, each individual's experience is unique.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center" data-aos="fade-left">
+                  <img src="../Image2/DBDD.jpeg" class="img-fluid mentalhealthinfoimgbig" alt="mentalhealthinfoimg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="my-5">
+          <div class="container text-center my-5" data-aos="fade-up">
+            <h2 class="border-bottom border-4 border-dark pb-4"><b>Mental Disorders</b></h2>
+          </div>
+
+          <div class="container">
+            <div class="accordion" id="MHinfoacc1">
+              <!-- Anxiety Disorders -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse1">
+                    Anxiety Disorders
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse1" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/anxiety-disorder-illustration-vector.jpg" class="img-fluid mentalhealthinfoimgsml" alt="anxiety image">
+                    </div>
+                    <p>Anxiety disorders involve excessive fear or worry that can disrupt daily life, affecting thinking, behavior, and physical health.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic predisposition, brain chemistry imbalances, traumatic events, and environmental stressors.</li>
+                      <li><b>Symptoms:</b> Persistent worry, irritability, difficulty concentrating, sleep disturbances, and physical symptoms like sweating, trembling, and a rapid heartbeat.</li>
+                      <li><b>Treatment:</b> Therapy (like cognitive behavioral therapy), medications (such as SSRIs), lifestyle changes, and relaxation techniques.</li>
+                      <li><b>Prevention:</b> Stress management, building resilience through coping strategies, and early intervention for symptoms.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Depression -->
+              <div class="accordion-item" data-aos="fade-right">
+                <h2 class="accordion-header" id="MHinfoacc1-heading2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse2">
+                    Depression
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse2" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/depression.jpg" class="img-fluid mentalhealthinfoimgsml" alt="depression image">
+                    </div>
+                    <p>A mental health disorder characterized by persistent sadness, loss of interest, and lack of pleasure in daily activities.</p>
+                    <ul>
+                      <li><b>Causes:</b> Biological, psychological, and social factors, including genetic vulnerability, chemical imbalances, and traumatic events.</li>
+                      <li><b>Symptoms:</b> Persistent sadness, loss of interest in activities, fatigue, feelings of worthlessness, sleep issues, and changes in appetite.</li>
+                      <li><b>Treatment:</b> Psychotherapy, antidepressant medications, lifestyle changes, and support groups.</li>
+                      <li><b>Prevention:</b> Early treatment, stress management, strong social connections, and regular exercise.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Bipolar Disorder -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse3">
+                    Bipolar Disorder
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse3" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/bipolar-disorder-concept-illustration_114360-3676.avif" class="img-fluid mentalhealthinfoimgsml" alt="bipolar image">
+                    </div>
+                    <p>A mood disorder characterized by alternating episodes of depression and mania or hypomania.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic factors, brain structure abnormalities, neurotransmitter imbalances, and environmental triggers.</li>
+                      <li><b>Symptoms:</b> Mood swings, high energy during manic phases, low energy during depressive phases, impulsive behaviors, and changes in sleep patterns.</li>
+                      <li><b>Treatment:</b> Mood stabilizers, psychotherapy, and lifestyle adjustments.</li>
+                      <li><b>Prevention:</b> Early diagnosis and management, stress reduction, and a stable daily routine.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- PTSD -->
+              <div class="accordion-item" data-aos="fade-right">
+                <h2 class="accordion-header" id="MHinfoacc1-heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse4">
+                    Post-Traumatic Stress Disorder (PTSD)
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse4" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/PTSD.jfif" class="img-fluid mentalhealthinfoimgsml" alt="ptsd image">
+                    </div>
+                    <p>A disorder that develops after exposure to a traumatic event, causing intense fear and anxiety long after the incident.</p>
+                    <ul>
+                      <li><b>Causes:</b> Trauma, such as assault, accidents, war, or natural disasters, is the main trigger.</li>
+                      <li><b>Symptoms:</b> Flashbacks, nightmares, avoidance of reminders of the trauma, emotional numbness, and hyperarousal.</li>
+                      <li><b>Treatment:</b> Therapy (e.g., cognitive behavioral therapy), medication, and support groups.</li>
+                      <li><b>Prevention:</b> Early intervention after trauma, stress management techniques, and social support.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Schizophrenia -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse5">
+                    Schizophrenia
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse5" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/artist-draws-what-he-sees-schizophrenia.webp" class="img-fluid mentalhealthinfoimgsml" alt="schizophrenia image">
+                    </div>
+                    <p>A chronic mental disorder that affects a person's ability to think, feel, and behave clearly.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetics, brain structure abnormalities, chemical imbalances, and environmental factors.</li>
+                      <li><b>Symptoms:</b> Delusions, hallucinations, disorganized thinking, social withdrawal, and lack of motivation.</li>
+                      <li><b>Treatment:</b> Antipsychotic medications, therapy, psychosocial interventions, and support.</li>
+                      <li><b>Prevention:</b> There is no sure prevention, but early intervention can help manage symptoms.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Eating Disorders -->
+              <div class="accordion-item" data-aos="fade-right">
+                <h2 class="accordion-header" id="MHinfoacc1-heading6">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse6">
+                    Eating Disorders
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse6" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/eatingdisorder.jpg" class="img-fluid mentalhealthinfoimgsml" alt="eating disorder">
+                    </div>
+                    <p>Disorders characterized by abnormal eating habits that negatively impact physical and mental health.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic, psychological, and social factors, including body image issues, stress, and trauma.</li>
+                      <li><b>Symptoms:</b> Excessive focus on body weight, restrictive eating, binge eating, purging, and distorted self-image.</li>
+                      <li><b>Treatment:</b> Therapy, nutritional counseling, and medication in some cases.</li>
+                      <li><b>Prevention:</b> Healthy body image promotion, education on healthy eating habits, and addressing societal pressures.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Disruptive Behavior and Dissocial Disorders -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse7">
+                    Disruptive Behavior and Dissocial Disorders
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse7" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/DBDD.jpeg" class="img-fluid mentalhealthinfoimgsml" alt="Disruptive behavior and dissocial disorder">
+                    </div>
+                    <p>Disorders marked by persistent patterns of aggressive, antisocial, or defiant behaviors.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic predisposition, environmental factors, childhood trauma, and family history.</li>
+                      <li><b>Symptoms:</b> Aggression, defiance, rule-breaking, and lack of empathy or remorse.</li>
+                      <li><b>Treatment:</b> Therapy (e.g., behavioral therapy), family support, and social skills training.</li>
+                      <li><b>Prevention:</b> Early intervention, positive parenting, and social support systems.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Neurodevelopmental disorders -->
+              <div class="accordion-item" data-aos="fade-right">
+                <h2 class="accordion-header" id="MHinfoacc1-heading8">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse8">
+                    Neurodevelopmental disorders
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse8" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/neurodevelopmental disorder.gif" class="img-fluid mentalhealthinfoimgsml" alt="neurodevelopement disorder image">
+                    </div>
+                    <p>A group of disorders that affect the development of the nervous system, impacting emotion, learning, and self-control.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic, prenatal, and environmental influences.</li>
+                      <li><b>Symptoms:</b> Delayed milestones, learning disabilities, and difficulties with social interaction and communication.</li>
+                      <li><b>Treatment:</b> Therapy, educational support, and medication, depending on the disorder.</li>
+                      <li><b>Prevention:</b> Early detection, prenatal care, and supportive environments.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Attention-deficit/hyperactivity disorder(ADHD) -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading9">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse9">
+                    Attention-deficit/hyperactivity disorder(ADHD)
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse9" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/adult-adhd-assessment-treatment.png" class="img-fluid mentalhealthinfoimgsml" alt="ADHD image">
+                    </div>
+                    <p>A neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity.</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetics, brain structure differences, and environmental factors.</li>
+                      <li><b>Symptoms:</b> Inattention, impulsiveness, restlessness, and difficulty following instructions.</li>
+                      <li><b>Treatment:</b> Behavioral therapy, medication, and supportive educational settings.</li>
+                      <li><b>Prevention:</b> No clear prevention, but early intervention can improve outcomes.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Obsessive compulsive disorder(OCD) -->
+              <div class="accordion-item" data-aos="fade-right">
+                <h2 class="accordion-header" id="MHinfoacc1-heading10">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse10">
+                    Obsessive compulsive disorder(OCD)
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse10" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/OCD.jfif" class="img-fluid mentalhealthinfoimgsml" alt="Ocd image">
+                    </div>
+                    <p>A disorder involving unwanted repetitive thoughts (obsessions) and behaviors (compulsions).</p>
+                    <ul>
+                      <li><b>Causes:</b> Genetic, brain abnormalities, and environmental stress.</li>
+                      <li><b>Symptoms:</b> Repetitive behaviors, obsessive thoughts, and significant distress over the inability to control them.</li>
+                      <li><b>Treatment:</b> Cognitive-behavioral therapy, medications, and exposure and response prevention therapy.</li>
+                      <li><b>Prevention:</b> No definitive prevention, but early treatment and coping skills help manage symptoms.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dementia -->
+              <div class="accordion-item" data-aos="fade-left">
+                <h2 class="accordion-header" id="MHinfoacc1-heading11">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MHinfoacc1-collapse11">
+                    Dementia
+                  </button>
+                </h2>
+                <div id="MHinfoacc1-collapse11" class="accordion-collapse collapse" data-bs-parent="#MHinfoacc1">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="../Image2/DEMENTIA-MEMORY-LOSS-1.webp" class="img-fluid mentalhealthinfoimgsml" alt="dementia image">
+                    </div>
+                    <p>A group of cognitive disorders characterized by memory loss, confusion, and impaired reasoning.</p>
+                    <ul>
+                      <li><b>Causes:</b> Age, genetics, brain injuries, and certain diseases (like Alzheimer's).</li>
+                      <li><b>Symptoms:</b> Memory impairment, confusion, language difficulties, and personality changes.</li>
+                      <li><b>Treatment:</b> Medications to slow progression, cognitive therapies, and support for daily activities.</li>
+                      <li><b>Prevention:</b> Healthy lifestyle, regular mental exercises, and managing cardiovascular health.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+            
+          <div class="container my-5 py-4 px-4 mentalhealthinfobg mentalhealthinfods text-light" data-aos="fade-up">
+            <div class="text-center text-dark">
+              <h2>Motivational Quotes For Inspiring Mental Disorder Bears</h2>
+            </div>
+
+            <div class="px-5 py-5 mx-auto text-dark">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <b>You are capable</b>
+                  <p><i>
+                    "You are capable of breaking free from negative thought patterns". "You are capable of creating a life filled with purpose and meaning, despite your mental health challenges". 
+                  </i></p>
+                  <b>You don't have to be positive all the time</b>
+                    <p>
+                      <i>
+                        "It's perfectly okay to feel sad, angry, annoyed, frustrated, scared, or anxious. Having feelings doesn't make you a 'negative person'. It makes you human". 
+                      </i>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <img class="img-fluid mentalhealthinfoimgbig" src="../Image2/mental-health-quotebanner.png" alt="banner_quote">
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+            
+          
+          
+        </section>
+        <!-- bodytext end -->
+        <div class="chat_icon"><a href="chat.html" class="chat_link"><img src="../Image2/chaticon.png" alt="chaticon"></a></div>
+
+     <!-- Footer Start  -->
+   <footer>
+    <div class="container-fluid my-2 py-3 ">
+      <div class="row nff">
+        <!-- Register -->
+        <div class="col-lg-3">
+          <form action="">
+            <h3 class="hf"><b>Register Here!</b></h3>
+            <p>With the help of your cooperation and signing up for our service, we shall help you with personal doctors within your interest! Sign up below to receive this offer! </p>
+            <div class="d-flex flex-column">
+              <input type="text" class="form-control" placeholder="Email Address" id="footerregisteremail">
+              <button type="button" class="btn ft-signup mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="regfooterbtn">Sign Up</button>
+            </div>
+          </form>
+          <img class="imgconfigforfooter" src="../Image/arrowfooter.png" alt="arrowfooter">
+        </div>
+        <!-- Nav Pages -->
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div>
+                <div class="my-1"><a href="../index.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Home</h4></a></div>
+                <div class="my-1"><a href="../pages/aboutUs.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">About Us</h4></a></div>
+                <div class="my-1"><a href="../pages/physicalHealth.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Physical Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mentalHealth.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Mental Health</h4></a></div>
+                <div class="my-1"><a href="../pages/mobileEffect.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Effects From Mobile Devices</h4></a></div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="my-1"><a href="../pages/healthNews.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Health News</h4></a></div> 
+               <div class="my-1"><a href="../pages/doctors's_info.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Doctors' Info</h4></a></div>
+               <div class="my-1"><a class="contactnav" href="../pages/PrivacyPolicy.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Our Policies</h5></a></div>
+               <div class="my-1"><a href="../pages/diet.html"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Diet Tips</h4></a></div>
+               <div class="my-1"><a href="../pages/fitness.html"><h5 class=" contactnav text-lg-start text-md-center text-sm-center">Fitness Tips</h4></a></div>
+              <div class="my-1"><a class="contactnav" href="../Citation 2024-2025.docx"><h5 class="contactnav text-lg-start text-md-center text-sm-center">Reference</h5></a></div>
+
+            </div>
+            <p class="text-center mt-5"> &copy; 2024-2025 MediHive. All rights reserved </p>
+          </div>
+        </div>
+        <!-- Contact Us -->
+        <div class="col-lg-3 ">
+          <div class="text-center"><a href="../pages/contactUs.html"><h2 class="contactustitle">Contact Us</h2></a></div>
+          <div class="contact_us_social">
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-regular fa-envelope"></i></h4><span>mediahiveservice@gmail.com</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center my-2"><h4 class="mx-2"><i class="fa-solid fa-phone-volume"></i></h4><span>09-428180999</span></div>
+            <div class="d-flex justify-content-lg-start justify-content-sm-center"><h4 class="mx-2"><i class="fa-solid fa-location-dot"></i></h4><span>Myanmar, Downtown Yangoon</span></div>
+            <div class="row">
+              <div class="col-lg-4 text-center mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-instagram"></i></h3><a class="socialmedia" href="">Instagram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-facebook"></i></h3><a class="socialmedia" href="">Facebook</a></div>
+              </div>
+              <div class="col-lg-4 text-center ms-2 ms-sm-0 mt-2">
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-telegram"></i></h3><a class="socialmedia" href="">Telegram</a></div>
+                <div class="d-flex justify-content-lg-start justify-content-sm-center"><h3 class="mx-2"><i class="fa-brands fa-square-x-twitter"></i></h3><a class="socialmedia" href="">Twitter/X</a></div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- Footer End  -->
+ 
+  
+
+
+   <!-- Bootstrp Js  -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+  <!-- Script  -->
+   <script src="../JS/app.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+
+  </div>
+  
+</body>
+</html>
