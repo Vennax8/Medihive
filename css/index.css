@@ -1,0 +1,315 @@
+/* Color Root  */
+:root{
+  --nav--color:#80DEEA;
+    --background_--color:#C5E7F1;
+    --boxnew1--color:#BEF2E5;
+    --footer--color:#8BD9C7;
+    --boxnew--color:#79CEED;
+    --font--color:white;
+    --font2--color:#002A52;
+    --btn1--color:#48BF91;
+}
+/* headerfont */
+.hf{
+  font-family: "Bona Nova SC", serif;
+}
+/* textfont */
+.tf{
+  font-family: "Inconsolata", monospace;
+}
+/* navbarfooterfont */
+.nff{
+  font-family: "Kanit", sans-serif;
+}
+body{
+  background-color: white;
+}
+
+.navbar{
+  background-color: transparent;
+  color: white;
+  transition: all 0.5s linear;
+}
+.navbartext{
+  color: white;
+}
+.navbar-scrolled {
+  background-color: var(--nav--color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.navbar-scrolledtext{
+  color: var(--font2--color);
+}
+
+
+/* modal */
+.modal-backdrop {
+  position: unset;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.PFP{
+  border-radius: 100%;
+  width: 40px;
+}
+
+
+/* idex.html*/
+.logo{
+  background-color: white;
+  border: 1px solid cadetblue;
+  border-radius: 100%;
+  /* box-shadow: 0px 0px 10px white; */
+  width: 70px;
+  height: 70px;
+}
+
+.nav-link{
+  transition: background-color 0.3s linear;
+  border-radius: 10px;
+}
+
+.nav-link:hover{
+  background-color: var(--boxnew1--color);
+  color: #002A52;
+}
+
+.dropdown-menu{
+  background-color: var(--nav--color);
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px black;
+}
+.dropdown-menu a{
+  color: var(--font2--color);
+}
+
+.modal-content_nav{
+  background-color: var(--nav--color);
+}
+.modal-body{
+  position: relative;
+  overflow: hidden;
+}
+/* SignUp Form */
+.Rbtn {
+  height: 60px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login,
+.signup {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  color: var(--font2--color);
+}
+
+.slider {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #608FDB, #79CEED);
+  position: absolute;
+  top: 36px;
+  left: 96px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-section {
+  height: 500px;
+  width: 1000px;
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  left: -15px;
+}
+
+.login-from,
+.signup-from {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+}
+
+.form-text{
+  color: var(--font2--color);
+}
+
+.login-from {
+  gap: 50px;
+}
+
+.signup-from {
+  gap: 20px;
+}
+
+.input_group {
+  height: 60px;
+  width: 400px;
+  outline: none;
+  border: none;
+  color: rgb(77, 77, 77);
+  background-color: rgb(240, 240, 240);
+  border-radius: 50px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.mybtn {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient( to right,#608FDB, #79CEED);
+  box-shadow: 0px 0px 10px black;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  color: var(--font2--color);
+}
+
+.ahaa {
+  cursor: pointer;
+  color: var(--font2--color);
+}
+
+.moveslider{
+  left: 250px;
+}
+.form-section-move{
+  left: -500px;
+}
+
+footer{
+  background-color: var(--footer--color);
+  color: var(--font2--color);
+  border-radius: 10px;
+}
+
+.imgconfigforfooter{
+  width: 150px;
+  height: 100px;
+}
+
+.ft-signup{
+  margin-top: 2px;
+  border: 1px solid white;
+  box-shadow: 0 0 3px white;
+  position: relative;
+  z-index: 0;
+}
+.ft-signup::after{
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--btn1--color);
+  color: var(--font2--color);
+  left: 0;
+  top: 0;
+  border-radius: 3px;
+}
+
+/* glow */
+.ft-signup::before{
+  content: "";
+  background: linear-gradient(
+    45deg,#48BF91,#BEF2E5,#C5E7F1,#002A52,#6ec1cc
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  filter: blur(4px);
+  animation: glowing 40s ease infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.ft-signup:active:after{
+  background: transparent;
+}
+.ft-signup:active{
+  font-weight: bold;
+}
+footer a{
+  text-decoration: none;
+}
+.contactustitle{
+  color: var(--font2--color);
+}
+.contactustitle:hover{
+  text-shadow: 1px 2px 2px white;
+}
+.contactnav{
+  color: var(--font2--color);
+}
+.contactnav:hover{
+  text-shadow: 1px 2px 2px white;
+}
+.ft_droupdown:hover{
+  scale: 1.5;
+}
+
+.socialmedia{
+  color: var(--font2--color);
+  text-decoration: underline white;
+}
+.socialmedia:hover{
+  color: darkblue;
+}
+
+
+
+@media screen and (max-width: 540px ){
+  .nav-item{
+    text-align: center;
+  }
+  .contact_us_social {
+    text-align: center;
+  }
+  .contactnav{
+    text-align: center;
+  }
+}

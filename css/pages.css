@@ -1,0 +1,1438 @@
+  /* Color Scheme  */
+  :root{
+    --nav--color:#80DEEA;
+    --background_--color:#C5E7F1;
+    --boxnew1--color:#BEF2E5;
+    --footer--color:#8BD9C7;
+    --boxnew--color:#79CEED;
+    --font--color:white;
+    --font2--color:#002A52;
+    --btn1--color:#48BF91;
+  }
+body{
+  overflow-x: hidden;
+}
+
+/*Animation*/
+@keyframes animation {}
+
+.chat_icon{
+  position: fixed;
+  top: 90vh;
+  right: 2vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.chat_icon img{
+  width: 100%;
+  height: 100%;
+}
+.chat_icon:hover{
+  transform: rotate(360deg);
+  box-shadow: 0 0 4px black;
+}
+
+.modal-header{
+  background-color: #79CEED;
+  color: black;
+}
+
+
+/* For the banner */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Image/Banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
+.black-bg{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  opacity: 0.5;
+}
+.homebanner_img{
+  width: 100%;
+  /* height: 100%; */
+}
+.banner-text{
+  color: white;
+  z-index: 2;
+  text-shadow: 2px 2px 10px black;
+}
+
+.banner .image {
+  z-index: 2;
+  width: 40%;
+  height: 500px;
+  filter: drop-shadow(0px 0px 10px whitesmoke)
+}
+
+.banner_btn{
+  font-size: 1.2rem;
+  color: var(--font2--color);
+  background-image: linear-gradient(45deg,#cbcaca, #48BF91);
+  transition: box-shadow 0.2s linear;
+  box-shadow: -2px 2px 10px black;
+}
+
+.banner_btn:hover{
+  background-image: linear-gradient(40deg, #48BF91,#C5E7F1);
+  color: var(--font2--color);
+  box-shadow: 3px 3px 4px black;
+}
+.mentalhealthbanner {
+  width: 100%;
+  height: 75vh;
+  background-color: black;
+  border: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mentalhealthbanner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Image2/mental-health-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  opacity: 0.5;
+}
+.mentalhealthbannertext{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 70%;
+  padding: 0 20px;
+}
+.mentalhealthinfobg{
+  background-color: var(--boxnew--color);
+  border-radius: 20px;
+}
+.mentalhealthinfoimgbig{
+  box-shadow: 0px 0px 20px black;
+  margin-bottom: 20px;
+  width: 450px;
+}
+.mentalhealthinfoimgsml{
+  box-shadow: 0px 0px 20px black;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.mentalhealthinfods{
+  box-shadow: 10px 10px 20px black;
+  margin-bottom: 20px;
+}
+/* Mobile Effect  */
+.mobileeffect{
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  border: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.mobileeffect::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image3/effImageBanner.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  opacity: 0.5;
+  z-index: 1;
+}
+.moblieeffecttext{
+  width: 100%;
+  height: auto;
+  background-color: var(--footer--color);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+}
+.mobileeffectcontainer{
+  background-color: var(--boxnew1--color);
+  border-radius: 10px;
+  margin: 50px;
+  padding: 20px;
+}
+.mobileeffectcontainerimg{
+  width: 700px;
+  border-radius: 20px;
+}
+.mobileeffectcontainertitle{
+  background-color: var(--nav--color);
+  border-radius: 20px;
+  
+}
+.mobileeffectimgs{
+  height: 350px;
+}
+
+
+/* For Offer  */
+.offerbox{
+  background-color: #BEF2E5;
+  width: 60%;
+  height: 100%;
+  box-shadow: 2px 2px 10px black;
+}
+
+.bar_first{
+  border-radius: 10px;
+  width: 400px;
+  height: 3px;
+  margin-bottom: 20px;
+}
+
+/*For the new section*/
+.newshomebox{
+  width: 63%;
+  height: 100%;
+}
+.new-item {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.new-item .head-line {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--font--color);
+  text-shadow: 2px 2px 10px black;
+}
+.new-item .new-link {
+  color: white;
+  text-decoration: none;
+  background-color: #4e657b;
+  padding: 10px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+  transition: all 0.5s ease;
+}
+.new-link:hover{
+  background-color: var(--footer--color);
+  box-shadow: 2px 3px 4px black;
+  color: var(--font2--color);
+}
+
+.new-item-1 {
+  background-image: url(../Image/Latest_new_greenspace.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new-item-2 {
+  background-image: url(../Image/Latest_new_Ai.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new-item-3 {
+  background-image: url(../Image/Latest_new_obesity.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new-item-4 {
+  background-image: url(../Image/Latest_new_sleep.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Common Diseases  */
+.recent-diseases{
+  width: 63%;
+}
+.accordion-button{
+  font-size: 1.3rem;
+}
+.accordion-button:not(.collapsed){
+  background-color: var(--boxnew--color);
+  color: var(--font2--color);
+}
+.accordion-button:not(.collapsed)::after{
+  filter: brightness(0%) invert(100%);
+}
+.accordion-item{
+  background-color: #C5E7F1;
+  color: black;
+}
+
+/* Fitness | Diet  */
+.dietbanner{
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  border: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dietbanner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Image3/dietbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  opacity: 0.5;
+}
+.dietbannertext{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 70%;
+  padding: 0 20px;
+}
+
+
+#foodbanner {
+  width: 100%;
+  height: 300px;
+}
+.twoboxes {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 200px;
+  z-index: 100;
+}
+.meatcontainer, .vegiecontainer {
+  border: 1px solid black;
+  width: 30vw;
+  height: 60vh;
+  border-radius: 20px;
+  background-color: var(--btn1--color);
+  margin: 30px 0px 0px 0px;
+}
+.MandVimg{
+  width: 300px;
+}
+.img-area-diet{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.img-area-diet img{
+  width: 100%;
+  height: 50vh;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px black;
+}
+
+.buttonfd{
+  color: var(--font2--color);
+  background-image: linear-gradient(40deg, #C5E7F1,#48BF91);
+  border: 1px solid var(--font2--color);
+  transition: all 0.2s linear;
+}
+
+.buttonfd:hover{
+  background-image: linear-gradient(40deg, #48BF91,#C5E7F1);
+  color: var(--font2--color);
+  box-shadow: 2px 2px 4px black;
+}
+
+.recepisection{
+  margin: 100px 0 70px 0;
+}
+
+
+.fitness_ul{ 
+  list-style-image: url(../Image2/fitness_ulicon.png);
+}
+.diet_ul{
+  list-style-image: url(../Image2/diet_ulicon.png);
+}
+
+.fitness_img{
+  width: 100%;
+}
+.diet_img{
+  width: 85%;
+}
+
+
+
+/* Looking For a Doctor?  */
+.lfd{
+  width: 62%;
+  height: 60vh;
+  background-color: var(--boxnew--color);
+  border-radius: 10px;
+  color: var(--font2--color);
+  box-shadow: 2px 2px 5px black;
+}
+.lfd_img{
+  width: 100%;
+  height: 100%;
+}
+.bar{
+  background-color: var(--font2--color);
+  border-radius: 10px;
+  width: 330px;
+  height: 3px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.lfd .img{
+  width: 39%;
+  height: 340px;
+  border: 1px solid #97CADB;
+  box-shadow: 0px 0px 5px black;
+}
+
+.lfd_btn{
+  color: var(--font2--color);
+  background-image: linear-gradient(40deg, #C5E7F1,#48BF91);
+  border: 1px solid var(--font2--color);
+  transition: all 0.2s linear;
+}
+
+.lfd_btn:hover{
+  background-image: linear-gradient(40deg, #48BF91,#C5E7F1);
+  color: var(--font2--color);
+  box-shadow: 2px 2px 4px black;
+}
+
+/* Contact US  */
+.back-arrow{
+  color: black;
+  position: fixed;
+  rotate: 90deg;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  transition: all 0.2s ease-in;
+}
+.back-arrow:hover{
+  color: white;
+  background-color: black;
+}
+
+.contactusbanner{
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+.whycontactusbox{
+  background-color: var(--footer--color);
+  color: var(--font2--color);
+  width: 80%;
+  border-radius: 10px;
+}
+
+.contactush1 {
+  text-align: center;
+}
+.contactustoppart {
+  color: var(--font2--color);
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.contactustoppart img {
+  width: 30%;
+}
+.locationcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 65%;
+  background-color: #C5E7F1;
+}
+.phnumbercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 65%;
+  background-color: #C5E7F1;
+}
+.emailcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 65%;
+  background-color: #C5E7F1;
+}
+.linecontactus {
+  border: 2px solid black;
+  width: 100%;
+  height: 0px;
+  justify-content: center;
+}
+.bottomcontainer {
+  display: flex;
+}
+.bottompart1 {
+  margin-top: -20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.bottompart1 input{
+  width: 400px;
+}
+#locationicon {
+  padding-top: 5%;
+}
+#phnumbericon {
+  padding-top: 6%;
+  margin-bottom: 20px;
+}
+#emailicon {
+  padding-top: 5%;
+}
+#location {
+  text-align: center;
+}
+#phnumber {
+  text-align: center;
+}
+#email {
+  text-align: center;
+}
+
+#messageinput {
+  width: 53%;
+  height: 20%;
+}
+
+.contactussubmit {
+  margin-top: 20px;
+  width: 53%;
+}
+.contact_usvector {
+  width: 100%;
+}
+.contactusfooter{
+  background-color: var(--footer--color);
+  color: var(--font2--color);
+}
+
+
+
+/* Media Querry  */
+@media screen and (max-width: 786px) {
+  .banner .image {
+      width: 50%;
+      /* height: 300px; */
+  }
+  .banner-text h2{
+    font-size: 1.2rem;
+  }
+  .banner-text h5{
+    font-size: 0.9rem;
+  }
+  .banner_btn{
+    font-size: 1rem;
+  }
+
+  .lfd{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .lfd_text{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .bar{
+    margin: auto;
+  }
+  .lfd .img{
+    order: 2; 
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+@media screen and (max-width: 540px) {
+  body{
+    font-size: 0.9rem;
+  }
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+  .banner {
+      height: 400px;
+      flex-direction: column;
+  }
+  .banner .image {
+      order: 2; 
+      /* height: 300px; */
+      margin-top: 3px;
+  }
+  .banner .banner-text {
+      order: 1; 
+      margin: auto;
+  }
+  .banner-text h2 {
+      font-size: 1.1rem;
+  }
+  .banner-text h5 {
+      font-size: 0.8rem;
+  }
+  .banner_btn {
+      font-size: 0.6rem;
+  }
+  .black-bg {
+      height: 400px;
+  }
+  .lfd{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .lfd_text{
+    order: 1;
+    margin: auto;
+    text-align: center;
+  }
+  .bar{
+    margin: auto;
+  }
+  .lfd .img{
+    order: 2; 
+    margin: auto;
+    height: auto;
+  }
+
+  .lfd_text h2 {
+      font-size: 1.2rem;
+  }
+  .lfd_text p {
+      font-size: 0.9rem;
+  }
+  .lfd_btn {
+      font-size: 0.8rem;
+  }
+
+  
+}
+
+/*Physical Health*/
+
+/*Banner*/
+.physical_banner {
+  width: 100%;
+}
+.physical_banner img{
+  width: 100%;
+}
+
+/*Diseases function*/
+.disease-title {
+  width: 100%;
+}
+.disease-info {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  overflow-y: scroll;
+}
+.disease-image {
+  height: 200px;
+}
+.disease-modal {
+  height: 80vh;
+  width: 80%;
+  color: black;
+}
+.modal-content-physical{
+  background-color: #C5E7F1;
+}
+.modal-disease-image {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px grey;
+}
+.big-img {
+  width: 100%;
+  height: 100%;
+}
+.big-img-holder {
+  height: 400px;
+}
+.doctor-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 4px 0px 4px grey;
+}
+.hide {
+  display: none;
+}
+.disease-card-holder{
+  background-color: var(--footer--color);
+}
+.show {
+  display: block;
+}
+.tabsdoc{
+  color: black;
+}
+.tabsdoc:hover{
+  color: white;
+  background-color: #608FDB;
+}
+.tabsdoc:active{
+  color: white;
+  background-color: #608FDB;
+}
+.search-result-area {
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+}
+.suggestion {
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.suggestion:hover {
+  background-color: rgba(240, 248, 255, 0.502);
+  color: blue;
+  text-decoration: underline;
+}
+@media screen and (max-width:720px) {
+  .disease-display .disease-image {
+      height: 300px;
+  }
+}
+
+/* Health New Page  */
+
+/* Banner  */
+.news_banner{
+  width: 100%;
+}
+.healthnewcarousel{
+  height: 100%;
+}
+
+.bannernews_inner{
+  width: 100%;
+  height: 70vh;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+}
+
+.health-newsbannerimg1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gg{
+  height: 70vh;
+}
+.bannernews_inner .carousel-caption{
+  opacity: -4px;
+}
+.health-news-indicator{
+  transform: translateY(-30px);
+}
+
+.img-text{
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: black;
+}
+.img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p{
+  font: 14px;
+}
+.newsseemore{
+  color: white;
+  text-decoration: none;
+  background-color: #4e657b;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.newsseemore:hover{
+  background-color: var(--footer--color);
+  box-shadow: 2px 3px 4px black;
+  color: var(--font2--color);
+}
+.single-box{
+  min-height: 85vh;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  background-color: #97CADB;
+  border-radius: 15px;
+}
+.single-box-mobile{
+  height: fit-content;
+  margin-bottom: 30px;
+  background-color: #97CADB;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.single-box a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #4e657b;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.single-box a button{
+  color: white;
+}
+.single-box a:hover{
+  background-color: var(--footer--color);
+  box-shadow: 2px 3px 4px black;
+  color: var(--font2--color);
+}
+.img-area{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.img-area img{
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+
+.health-news-indicator .button{
+  background-color: #C5E7F1;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.health-news-indicator .active{
+  background-color: white;
+}
+.nothealthnews-indicator .button{
+  background-color: #333;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.nothealthnews-indicator .active{
+  background-color: #000;
+}
+
+
+/* About Us  */
+.abt_banner{
+  width: 100%;
+  height: 480px;
+  background-color: var(--boxnew--color);
+  border-radius: 0 0 20px 20px;
+}
+.abt_img{
+  margin-left: 40px;
+  filter: drop-shadow(0 0 4px black);
+}
+.abt_bannertext{
+  margin: 94px 0 0 0;
+}
+.abt_btn{
+  font-size: 1.2rem;
+  color: var(--font2--color);
+  background-image: linear-gradient(40deg, #C5E7F1,#48BF91);
+  border: none;
+  transition: all 0.2s linear;
+}
+.abt_btn:hover{
+  background-image: linear-gradient(40deg, #48BF91,#C5E7F1);
+  color: var(--font2--color);
+  box-shadow: 2px 2px 4px black;
+}
+.mission_box, .vision_box{
+  font-weight: 600;
+}
+.mv_text{
+  font-size: 2.5rem;
+}
+.mission_box{
+  background-color: #C5E7F1;
+  padding: 20px 55px 20px 55px;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: -2px 2px 4px black;
+  position: relative;
+}
+.vision_box{
+  background-color: #C5E7F1;
+  border-radius: 100%;
+  box-shadow: 2px 2px 4px black;
+  padding: 20px 80px 25px 80px;
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+
+.fa-bullseye{
+  font-size: 4rem;
+  margin-bottom: 3px;
+}
+
+.fa-eye_vison{
+  font-size: 4rem;
+  margin-bottom: 3px;
+}
+
+.airplaneflew{
+  width: 400px;
+  rotate: 30deg;
+  position: absolute;
+  left: -100px;
+  top: 200px;
+}
+
+.airplanestay{
+  width: 150px;
+  rotate: -50deg;
+  position: absolute;
+  right: 9px;
+  bottom: -10px;
+  z-index: 2;
+}
+
+.Aboutusmeetzeteambox{
+  background-color: #BEF2E5;
+  box-shadow: 0px 0px 4px black;
+}
+.abt_us_img{
+  box-shadow: 0 0 3px black;
+  margin-bottom: 5px;
+}
+
+.abt_us_text{
+  text-indent: 10px;
+}
+
+@media screen and (max-width: 1179px) {
+  .abt_banner{
+    width: 100%;
+    height: 600px;
+  }
+  .abt_img{
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .abt_banner{
+    width: 100%;
+    height: 665px;
+  }
+  .abt_img{
+    margin-top: 100px;
+    width: 380px;
+    margin-left: 0px;
+  }
+  .airplanestay{
+    bottom: -200px;
+  }
+  .airplaneflew{
+    left: -100px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .abt_banner{
+    width: 100%;
+    height: 990px;
+    text-align: center;
+  }
+  .abt_btn{
+    margin-bottom: 5px;
+  }
+  .abt_img{
+    width: 380px;
+    margin-left: 0px;
+  }
+  .airplanestay{
+    bottom: -500px;
+  }
+  .airplaneflew{
+    width: 350px;
+    rotate: 60deg;
+    left: -180px;
+    top: 150px;
+  }
+  .Aboutusmeetzeteambox  h3{
+    text-align: center;
+  }
+
+  .Aboutusmeetzeteambox  p{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .ppp_img{
+    width: 300px;
+    margin-left: -56px;
+  }
+  .Aboutusmeetzeteambox img{
+    width: 90%;
+  }
+}
+/*Contact Us*/
+@media screen and (max-width: 500px){
+  .contactustoppart {
+    display: inline-flex;
+  }
+  .locationcontainer {
+    height: 60%;
+  }
+  .phnumbercontainer {
+    height: 60%;
+  }
+  .emailcontainer {
+    height: 60%;
+  }
+  .bottompart1 {
+    margin-left: 20px;
+    width: 80%;
+  }
+  #location {
+    font-size: 12px;
+  }
+  #phnumber {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  #email {
+    font-size: 12px;
+  }
+  #nameinput {
+    width: 70%;
+  }
+  #phnumberinput {
+    width: 70%;
+  }
+  #emailinput {
+    width: 70%;
+  }
+  .contact_usvector {
+    display: block;
+    margin-left: 10px;
+    margin-top: 150px;
+    width: 30%;
+    height: 90%;
+  }
+  .yourmessage {
+    display: block;
+    margin-left: 15px;
+  }
+  #messageinput {
+    width: 70%;
+  }
+  .contactussubmit {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 999px){
+  .contactustoppart {
+    display: inline-flex;
+  }
+  .locationcontainer {
+    height: 60%;
+  }
+  .phnumbercontainer {
+    height: 60%;
+  }
+  .emailcontainer {
+    height: 60%;
+  }
+  .bottompart1 {
+    margin-left: 20px;
+    width: 80%;
+  }
+  #nameinput {
+    width: 100%;
+  }
+  #phnumberinput {
+    width: 100%;
+  }
+  #emailinput {
+    width: 100%;
+  }
+  #messageinput {
+    width: 100%;
+  }
+  .contactussubmit {
+    width: 100%;
+  }
+  .contact_usvector {
+    margin-right: 40px;
+    margin-top: 150px;
+    width: 30%;
+    height: 90%;
+  }
+}
+
+/*Doctor info*/
+.banner-doctor {
+  background-image: url(../Image2/banner-doctor.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+.banner-doctor-opace {
+  background-color: rgb(39, 39, 39);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+.btndoc{
+  background-color: var(--nav--color);
+  color: var(--font2--color);
+  font-weight: 500;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.btndoc:hover{
+  box-shadow: 2px 2px 5px black;
+}
+.banner-doctor-text {
+  text-align: center;
+}
+.text-shadowdoc{
+  text-shadow: 2px 2px 5px black;
+}
+.doctor-card {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 2px;
+}
+.doctor-card .doctor-img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+.doctor-filter.show {
+  animation: fade 0.5s ease-in-out;
+}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.doctor-filter.hide {
+  display: none;
+}
+.doctor-active {
+  background-color: red;
+}
+
+/* Fitness  */
+.motherfitness{
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  border: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.motherfitness div{
+  z-index: 2;
+  color: white;
+}
+.motherfitness::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image2/fitnessbanner.jfif');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  opacity: 0.5;
+  z-index: 1;
+}
+.fitnessbannerImg{
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  width: 400px;
+  height: 350px;
+}
+
+.motherfitness button{
+  transition: background-color 0.3s linear;
+}
+
+.motherfitness button:hover{
+  color: black;
+  background-color: #C5E7F1;
+}
+.easy_execontainer{
+  width: 85%;
+  background-color: #BEF2E5;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px black;
+}
+.lec{
+  width:  100%;
+  height: 100%;
+}
+.ese-head{
+  text-align: end;
+}
+.eseimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.swim{
+  list-style-image: url(../image3/swimming.png);
+}
+.Taichi{
+  list-style-image: url(../image3/taichi_icon.png);
+}
+.strengthtraining{
+  list-style-image: url(../image3/strength_icon.png);
+}
+.walking{
+  list-style-image: url(../image3/walk_icon.png);
+}
+.kegel{
+  list-style-image: url(../image3/kegel_icon.png);
+}
+.Dexercise{
+  width: 85%;
+  background-color: #BEF2E5;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px black;
+}
+.de_text p{
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.de_text p:hover{
+  transform: translateX(20px);
+}
+.fitnessmodal_content{
+  background-color: #C5E7F1;
+}
+.fitnessmodal_imgbox img{
+  width: 100%;
+  height: 100%;
+}
+.lunches{
+  list-style-image: url(../image3/lunchesicon.png);
+}
+.pushup{
+  list-style-image: url(../image3/pushupicon.png);
+}
+.squat{
+  list-style-image: url(../image3/squaticon.png);
+}
+.sodumbbel{
+  list-style-image: url(../image3/overheadpressicon.png);
+}
+.dumbbellrows{
+  list-style-image: url(../image3/dumbbellrowicon.png);
+}
+.legdedlift{
+  list-style-image: url(../image3/deadlifticon.png);
+}
+.sodumbbel{
+  list-style-image: url(../image3/overheadpressicon.png);
+}
+.burpees{
+  list-style-image: url(../image3/burpeeicon.png);
+}
+.sideplank{
+  list-style-image: url(../image3/sideplankicon.png);
+}
+.planks{
+  list-style-image: url(../image3/plankicon.png);
+}
+.glutebridge{
+  list-style-image: url(../image3/glutebridgeicon.png);
+}
+.derightimgbox{
+  margin: 80px 0 80px 0;
+  width: 100%;
+  height: 100%;
+}
+.deright img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+.bar_exe{
+  border-radius: 10px;
+  width: 450px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+.bmicalculatorbox, .bmitextbox{
+  height: 60vh;
+}
+.bmicalculatorbox form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.bmitextbox{
+  background-color: #C5E7F1;
+  border-radius: 10px;
+  box-shadow: -2px 2px 7px black;
+}
+
+.mothermoti{
+  width: 85%;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: black;
+  border: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.mothermoti div{
+  z-index: 2;
+  color: white;
+}
+.mothermoti::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image3/motiquotebanner.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*Our Policies*/
+.term-banner {
+  background-image: url(../Image3/terms.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+.term-banner .term-banner-box {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+.term-banner-opace {
+  position: absolute;
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  border-radius: 30px;
+}
+.term-banner-text {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  margin-top: 80px;
+}
+.agreebtn{
+  background-color: #97CADB;
+  color: black;
+  transition: all 0.2s ease;
+}
+.agreebtn:hover{
+  background-color: #79CEED;
+  color: black;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 720px) {
+  .term-banner .term-banner-box {
+      width: 75%;
+  }
+}
+
+/*BMI calculator*/
+.fitness-bmi-container {
+  background: url(../image3/bmi-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 250px;
+  font-size: larger;
+  color: rgb(2, 16, 4);
+}
+

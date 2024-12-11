@@ -1,0 +1,299 @@
+/* Chat  */
+.chat_icon{
+  position: fixed;
+  top: 90vh;
+  right: 2vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.chat_icon img{
+  width: 100%;
+  height: 100%;
+}
+.chat_icon:hover{
+  transform: rotate(360deg);
+  box-shadow: 0 0 4px black;
+}
+.motherchat{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.chatnav{
+  background-color: #608FDB;
+  color: white;
+}
+.search{
+  overflow-y: auto;
+  background-color: #C5E7F1;
+  width: 40vw;
+  height: 100vh;
+}
+.chatbox{
+  overflow-y: auto;
+  width: 60vw;
+  height: 90vh;
+}
+
+.fa-house-chimney-window{
+  cursor: pointer;
+  color: white;
+}
+.homeicon{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transition: background-color 0.3s linear;
+}
+.homeicon:hover{
+  background-color: rgb(58, 58, 58);
+}
+.homeicon a{
+  text-decoration: none;
+}
+.profile{
+  width: 100px;
+  height: 100px;
+}
+.profile_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.bar{
+  width: 90%;
+}
+.bar2{
+  width: 70%;
+}
+.chatnav i{
+  cursor: pointer;
+  font-size: 2rem;
+}
+.activechaticon{
+  background-color: #111;
+}
+
+
+.searchuser-form{
+  border-radius: 50px 0 0 50px;
+}
+
+.search_userbtn{
+  border-radius: 0px 50px 50px 0;
+}
+
+.chatpovvip_box{
+  height: 60px;
+  border-radius: 30px;
+  background-color: #54abcb;
+  cursor: pointer;
+}
+
+.chatpovImgbox{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.chatpovvip_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bhhpovimg{
+  scale: 1.5;
+}
+.chatpov_box{
+  height: 60px;
+  border-radius: 30px;
+  background-color: #3b88a4;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+  cursor: pointer;
+}
+.activechatpov{
+  background-color: #0b455a;
+}
+.chatpov_info{
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 0 0 10px;
+}
+.notfDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: black;
+}
+.chatbox{
+  position: relative;
+}
+
+.chatboxnav, .typingbox{
+  width: 58.5vw;
+  height: 60px;
+  padding: 0 20px;
+  color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.chatboxnav{
+  background-color: #608FDB;
+  top: 0;
+}
+
+.slectfriendtext{
+  margin: 0 0 0 20px;
+}
+
+.can_chat{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.chattingbox{
+  padding: 80px 0;
+}
+
+.cpbparent{
+  width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.rightcpbparent{
+  justify-content: flex-end;
+}
+
+.leftcpbparent{
+  justify-content: flex-start;
+}
+
+.chatpopupbox{
+  min-width: 100px;
+  min-height: 30px;
+  padding: 20px 20px 5px 20px;
+  border-radius: 15px;
+  color: #fff;
+  position: relative;
+}
+
+.rightchatpopup{
+  background-color: #52d6a3;
+}
+
+.leftchatpopup{
+  background-color: #55c2e6;
+}
+
+.popuptext{
+  color: black;
+  font-size: 1rem;
+}
+
+.popupdate{
+  color: #111;
+  font-size: 0.5rem;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.typingbox_bg{
+  width: 80%;
+  background-color: #3b88a4;
+  height: 40px;
+  border-radius: 20px;
+}
+.typingbox{
+  background-color: #61c4e8;
+  bottom: 0;
+}
+.typingboxicon{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typingboxicon i{
+  font-size: 1.5rem;
+}
+.sendbutton{
+  font-size: 1.5rem;
+  margin: 0 0 0 2%;
+}
+.messagetypingbox{
+  border-radius: 20px;
+  width: 90%;
+  height: 100%;
+}
+.fa-paper-plane{
+  transform: rotate(48deg);
+  cursor: pointer;
+  transition: color 0.1s linear;
+}
+.fa-paper-plane:hover{
+  color: #282626;
+}
+.typingboxicon i{
+  cursor: pointer;
+}
+
+/* Doctor Chat  */
+.doctorchatcontaienr{
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+@media screen and (max-width:992px) {
+  .chatboxnav{
+    top: 70px;
+    background-color: black;
+  }
+  .chatnav{
+    height: 70px;
+  }
+  .chatnav i{
+    font-size: 1.5rem;
+  }
+  .bar{
+    display: none;
+  }
+  .profile{
+    width: 55px;
+    height: 55px;
+  }
+  .search{
+    height: 90vh;
+  }
+  .typingboxicon i, .sendbutton{
+    font-size: 1.2rem;
+  }
+  .sendbutton{
+    margin: 0 0 0 1%;
+  }
+
+}
